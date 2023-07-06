@@ -1,0 +1,28 @@
+﻿@page "/characters"
+@using Genshin_Site.Data;
+
+<h3>Character</h3>
+@foreach (var character in roster)
+{
+    <div>@character.CharacterName:</div>
+    <div>@character.Element,</div>
+    <div>@character.Weapon</div>
+    <br>
+}
+
+@code
+{
+    private List<Character> roster = new List<Character>()
+    {
+        new Character("Albedo", "Geo", "Sword"),
+        new Character("Alhaitham", "Dendro", "Sword"),
+        new Character("Aloy", "Cryo", "Bow"),
+        new Character("Amber", "Pyro", "Bow"),
+        new Character("Ayaka", "Cryo", "Sword"),
+        new Character("Ayato", "Hydro", "Sword"),
+        new Character("Baizu", "Dendro", "Catalyst"),
+        new Character("Barbara", "Hydro", "Catalyst"),
+        new Character("Beidu", "Electro", "Claymore"),
+        new Character("Bennet", "Pyro", "Sword"),
+    };
+}
