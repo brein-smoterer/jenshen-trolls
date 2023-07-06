@@ -1,6 +1,6 @@
-﻿namespace Genshin_Site
+﻿namespace Genshin_Site.Data
 {
-    public class Characters
+    public class Character
     {
         string character_name { get; set; }
         string element { get; set; }
