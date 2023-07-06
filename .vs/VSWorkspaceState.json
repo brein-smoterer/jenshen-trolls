@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Genshin Site",
+    "\\Genshin Site\\Genshin Site",
+    "\\Genshin Site\\Genshin Site\\Data",
+    "\\Genshin Site\\Genshin Site\\Pages",
+    "\\Genshin Site\\Genshin Site\\Shared"
   ],
-  "SelectedNode": "\\C:\\Users\\Boil4\\Source\\Repos\\jenshen-trolls",
+  "SelectedNode": "\\Genshin Site\\Genshin Site\\Pages\\Index.razor",
   "PreviewInSolutionExplorer": false
 }

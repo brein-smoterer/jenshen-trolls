@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Boil4/source/repos/jenshen-trolls/Genshin Site/Genshin Site/Pages/ArtifactSets.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWZhY3RTZXRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Boil4/source/repos/jenshen-trolls/Genshin Site/Genshin Site/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Boil4/source/repos/jenshen-trolls/Genshin Site/Genshin Site/Pages/Test.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Boil4/source/repos/jenshen-trolls/Genshin Site/Genshin Site/_Imports.razor]

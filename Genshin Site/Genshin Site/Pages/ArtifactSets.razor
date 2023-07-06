@@ -1,0 +1,22 @@
+﻿@page "/artifacts"
+
+@using Genshin_Site.Data;
+<h3>Artifact Sets</h3>
+
+@foreach (var set in artifactSets)
+{
+    <div>@set.ArtifactSetName</div>
+    <div>@set.ArtifactSetPassive</div>
+    <br>
+}
+
+@code {
+    private List<ArtifactSet> artifactSets = new List<ArtifactSet>()
+    {
+        new ArtifactSet("Gladiator's Finale", "2 Piece: ATK +18%. 4 Piece: If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%."),
+        new ArtifactSet("Wanderer's Troupe", "2 Piece: Increases Elemental Mastery by 80. 4 Piece: Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow."),
+        new ArtifactSet("Noblesse Oblige", "2 Piece: Elemental Burst DMG +20%. 4 Piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack."),
+        new ArtifactSet("Bloodstained Chivalry", "2 Piece: Physical DMG Bonus +25%. 4 Piece: After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. Also triggers with wild animals such as boars, squirrels and frogs."),
+        new ArtifactSet("Maiden Beloved", "2 Piece: Character Healing Effectiveness +15%. 4 Piece: Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.")
+    };
+}
