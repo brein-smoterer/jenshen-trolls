@@ -2,10 +2,10 @@
 {
     public class Weapon
     {
-        public string Name { get; set; }
-        public string Type { get; set; }
-        public string Substat { get; set; }
-        public string Passive { get; set; }
+        public string Name { get; }
+        public string Type { get; }
+        public string Substat { get; }
+        public string Passive { get; }
         public Weapon(string name, string type, string substat, string passive)
         {
            
