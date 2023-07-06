@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Boil4\\.nuget\\packages\\": {}
+    "C:\\Users\\Християн\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\Genshin Site.csproj",
+      "projectUniqueName": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\Genshin Site.csproj",
       "projectName": "Genshin Site",
-      "projectPath": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\Genshin Site.csproj",
-      "packagesPath": "C:\\Users\\Boil4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\obj\\",
+      "projectPath": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\Genshin Site.csproj",
+      "packagesPath": "C:\\Users\\Християн\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Boil4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Християн\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0VOtpYGYol9+ARLZv6ruVziF9TMlbXqhR6ot0Kaw0QM=",
+  "Hash": "ncZEbEDwkoroch43Gj1N1cDsUDPy26PjUmY44/o+1nk=",
   "Source": "Genshin Site",
   "BasePath": "_content/Genshin Site",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Genshin Site\\wwwroot",
       "Source": "Genshin Site",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Genshin Site.styles.css",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Genshin Site.styles.css",
       "SourceId": "Genshin Site",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "Genshin Site.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Genshin Site.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Genshin Site.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Genshin Site.bundle.scp.css",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Genshin Site.bundle.scp.css",
       "SourceId": "Genshin Site",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "Genshin Site.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Genshin Site.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Genshin Site.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\css\\site.css",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\favicon.ico",
       "SourceId": "Genshin Site",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Boil4\\source\\repos\\jenshen-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Християн\\Source\\Repos\\jenshin-trolls\\Genshin Site\\Genshin Site\\wwwroot\\",
       "BasePath": "_content/Genshin Site",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
