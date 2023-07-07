@@ -7,4 +7,15 @@
     <RootNamespace>Genshin_Site</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\AmosBow.png" />
+    <None Include="wwwroot\images\AquaSimulacra.png" />
+    <None Include="wwwroot\images\AquilaFavonia.png" />
+    <None Include="wwwroot\images\ThousandFloatingDreams.png" />
+  </ItemGroup>
+
 </Project>
