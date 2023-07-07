@@ -2,6 +2,7 @@
 {
     public class Weapon
     {
+        public bool Show = false;
         public string Name { get; }
         public string Type { get; }
         public string Substat { get; }
