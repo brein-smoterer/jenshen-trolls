@@ -2,8 +2,15 @@
 {
     public class Character
     {
-        string character_name { get; set; }
-        string element { get; set; }
-        string weapon { get; set; }
+        public string CharacterName { get; }
+        public string Element { get; }
+        public string Weapon { get; }
+
+        public Character(string CharacterName1, string Element1, string Weapon1)
+        {
+            CharacterName = CharacterName1;
+            Element = Element1;
+            Weapon = Weapon1;
+        }
     }
 }
