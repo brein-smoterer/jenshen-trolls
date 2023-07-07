@@ -4,6 +4,7 @@
     {
         public string ArtifactSetName { get; }
         public string ArtifactSetPassive { get; }
+        public bool Show = false;
         public ArtifactSet(string artifactSetName, string artifactSetPassive)
         {
             ArtifactSetName = artifactSetName;
