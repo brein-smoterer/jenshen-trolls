@@ -1,5 +1,19 @@
-﻿<h3>Weapons</h3>
-
-@code {
-
+﻿@page "/weapons"
+@using Genshin_Site.Data
+<PageTitle>Weapons</PageTitle>
+<h3>Weapons</h3>
+@foreach (var item in weapons)
+{
+    <div>@item.Name</div>
+    <div>@item.Type</div>
+    <div>@item.Substat</div>
+    <div>@item.Passive</div>
+}
+@code 
+{
+    public List<Weapon> weapons = new List<Weapon>()
+    {
+        new Weapon("123","sword","atk","atk boost"),
+        new Weapon("bnmbnmbn,dftd", "bazooka","def","hp sup")
+    };
 }

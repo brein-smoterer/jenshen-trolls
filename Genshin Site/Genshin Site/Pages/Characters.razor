@@ -1,0 +1,89 @@
+﻿@page "/characters"
+@using Genshin_Site.Data;
+
+<h3>Character</h3>
+@foreach (var character in roster)
+{
+    <div>@character.CharacterName:</div>
+    <div>@character.Element,</div>
+    <div>@character.Weapon</div>
+    <br>
+}
+
+@code
+{
+    private List<Character> roster = new List<Character>()
+    {
+        new Character("Albedo", "Geo", "Sword"),
+        new Character("Alhaitham", "Dendro", "Sword"),
+        new Character("Aloy", "Cryo", "Bow"),
+        new Character("Amber", "Pyro", "Bow"),
+        new Character("Ayaka", "Cryo", "Sword"),
+        new Character("Ayato", "Hydro", "Sword"),
+        new Character("Baizu", "Dendro", "Catalyst"),
+        new Character("Barbara", "Hydro", "Catalyst"),
+        new Character("Beidu", "Electro", "Claymore"),
+        new Character("Bennet", "Pyro", "Sword"),
+        new Character("Candece", "Hydro", "Polearm"),
+        new Character("Chongyung", "Cryo", "Claymore"),
+        new Character("Collei", "Dendro", "Bow"),
+        new Character("Cyno", "Electro", "Polearm"),
+        new Character("Dehya", "Pyro", "Claymore"),
+        new Character("Diluc", "Pyro", "Claymore"),
+        new Character("Diona", "Cryo", "Bow"),
+        new Character("Dori", "Electro", "Claymore"),
+        new Character("Eula", "Cryo", "Claymore"),
+        new Character("Faruzan", "Anemo", "Bow"),
+        new Character("Fischl", "Electro", "Bow"),
+        new Character("Ganyu", "Cryo", "Bow"),
+        new Character("Gorou", "Geo", "Bow"),
+        new Character("Heizou", "Anemo", "Catalyst"),
+        new Character("Hu Tao", "Pyro", "Polearm"),
+        new Character("Itto", "Geo", "Claymore"),
+        new Character("Jean", "Anemo", "Sword"),
+        new Character("Kaeya", "Cryo", "Sword"),
+        new Character("Kaveh", "Dendro", "Claymore"),
+        new Character("Kazuha", "Anemo", "Sword"),
+        new Character("Kaqing", "Electro", "Sword"),
+        new Character("Kiara", "Dendro", "Sword"),
+        new Character("Klee", "Pyro", "Catalyst"),
+        new Character("Kokomi", "Hydro", "Catalyst"),
+        new Character("Kuki", "Dendro", "Sword"),
+        new Character("Leyla", "Cryo", "Sword"),
+        new Character("Lisa", "Electro", "Catalyst"),
+        new Character("Mika", "Cryo", "Polearm"),
+        new Character("Mona", "Hydro", "Catalyst"),
+        new Character("Nahida", "Dendro", "Catalyst"),
+        new Character("Nilou", "Hydro", "Sword"),
+        new Character("Ningguang", "Geo", "Catalyst"),
+        new Character("Noelle", "Geo", "Claymore"),
+        new Character("Qiqi", "Cryo", "Sword"),
+        new Character("Raden", "Electro", "Polearm"),
+        new Character("Razor", "Electro", "Claymore"),
+        new Character("Rozaria", "Cryo", "Polearm"),
+        new Character("Sara", "Electro", "Bow"),
+        new Character("Sayu", "Anemo", "Claymore"),
+        new Character("Shenhe", "Cryo", "Polearm"),
+        new Character("Sucrose", "Anemo", "Catalyst"),
+        new Character("Tarataglia", "Hydro", "Bow"),
+        new Character("Thoma", "Pyro", "Polearm"),
+        new Character("Tighnari", "Dendro", "Bow"),
+        new Character("Traveler", "Anemo", "Sword"),
+        new Character("Traveler", "Geo", "Sword"),
+        new Character("Traveler", "Electro", "Sword"),
+        new Character("Traveler", "Dendro", "Sword"),
+        new Character("Venti", "Anemo", "Bow"),
+        new Character("Wandere", "Anemo", "Catalyst"),
+        new Character("Xiangling", "Pyro", "Polearm"),
+        new Character("Xiao", "Anemo", "Polearm"),
+        new Character("Xingqui", "Hydro", "Sword"),
+        new Character("Xinyan", "Pyro", "Claymore"),
+        new Character("Yae Miko", "Electro", "Catalyst"),
+        new Character("Yanfei", "Pyro", "Catalyst"),
+        new Character("Yaoyao", "Dendro", "Polearm"),
+        new Character("Yelan", "Hydro", "Bow"),
+        new Character("Yoimia", "Pyro", "Bow"),
+        new Character("Yunjin", "Geo", "Polearm"),
+        new Character("Zhongli", "Geo", "Polearm"),
+    };
+}
