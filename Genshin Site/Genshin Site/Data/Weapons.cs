@@ -8,7 +8,10 @@
         public string Passive { get; }
         public Weapon(string name, string type, string substat, string passive)
         {
-           
+            Name = name;
+            Type = type;
+            Substat = substat;
+            Passive = passive;
         }
     }
 }
