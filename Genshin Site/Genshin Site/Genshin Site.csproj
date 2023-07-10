@@ -7,8 +7,4 @@
     <RootNamespace>Genshin_Site</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\Images\ArtifactImages\" />
-  </ItemGroup>
-
 </Project>

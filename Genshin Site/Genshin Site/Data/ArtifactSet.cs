@@ -3,7 +3,6 @@
     public class ArtifactSet
     {
         public string Img;
-        //public FileInfo[] files = d.GetFiles();
         public string ArtifactSetName { get; }
         public string ArtifactSetPassive { get; }
         public bool Show = false;
