@@ -2,18 +2,31 @@
 
 @using Genshin_Site.Data;
 <h3>Artifact Sets</h3>
+<style>
+    .expand {
+        width: 300px;
+        border-style: none;
+        background-color: antiquewhite;
+        border-block-color: aqua;
+        margin: 3px
+    }
 
-@foreach (var set in artifactSets)
-{
-    <div @onclick="() => Show(set)">
-        <img src="@set.Img" />
-        <span >@set.ArtifactSetName</span>
-    </div>
+        .expand:hover {
+            background-color: blanchedalmond;
+        }
+</style>
+<div>
+    @foreach (var set in artifactSets)
+    {
+        <div class="expand" @onclick="() => Show(set)">
+            <img width="40px" height="40px" src="@set.Img" />
+            <span>@set.ArtifactSetName</span>
+        </div>
         <div hidden="@(!set.Show)">
             <div>@set.ArtifactSetPassive</div>
         </div>
-    <br />
-}
+    }
+</div>
 @*@foreach (var file in files)
 {
     <img src="Images/ArtifactImages/@file.Name" />
@@ -25,14 +38,14 @@
     private List<ArtifactSet> artifactSets = new List<ArtifactSet>()
     {
         new ArtifactSet(
-            "Gladiator's Finale", 
-            "2 Piece: ATK +18%. 4 Piece: If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.", 
+            "Gladiator's Finale",
+            "2 Piece: ATK +18%. 4 Piece: If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.",
             "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Gladiator%27s_Nostalgia.png"),
-        new ArtifactSet("Wanderer's Troupe", 
-            "2 Piece: Increases Elemental Mastery by 80. 4 Piece: Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow.", 
+        new ArtifactSet("Wanderer's Troupe",
+            "2 Piece: Increases Elemental Mastery by 80. 4 Piece: Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow.",
             "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Troupe%27s_Dawnlight.png"),
-        new ArtifactSet("Noblesse Oblige", 
-            "2 Piece: Elemental Burst DMG +20%. 4 Piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.", 
+        new ArtifactSet("Noblesse Oblige",
+            "2 Piece: Elemental Burst DMG +20%. 4 Piece: Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.",
             "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Royal_Flora.png"),
         //new ArtifactSet("Bloodstained Chivalry", "2 Piece: Physical DMG Bonus +25%. 4 Piece: After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. Also triggers with wild animals such as boars, squirrels and frogs."),
         //new ArtifactSet("Maiden Beloved", "2 Piece: Character Healing Effectiveness +15%. 4 Piece: Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s."),
