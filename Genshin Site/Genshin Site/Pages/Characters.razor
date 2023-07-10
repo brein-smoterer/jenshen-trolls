@@ -5,8 +5,7 @@
 @foreach (var character in roster)
 {
     <img src="@character.Imege" asp-append-version="true" width="180px" />
-    <br>
-    <button @onclick = "() => Show(character)">@character.CharacterName:</button>
+    <button @onclick = "() => Show(character)">@character.CharacterName</button>
     <div hidden="@(!character.Show)">
         <div>@character.Element</div>
         <div>@character.Weapon</div>
