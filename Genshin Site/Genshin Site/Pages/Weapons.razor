@@ -3,7 +3,8 @@
 <PageTitle>Weapons</PageTitle>
 <h3>Weapons</h3>
 
-@foreach (var weapon in weapons)
+
+@foreach (var weapon in GetWeapons())
 {
     <img src="@weapon.Image" asp-append-version="true" maxwidth="180px" maxheight="180px"/>
     <button @onclick="() => Show(weapon)">@weapon.Name</button>
@@ -24,6 +25,10 @@
 }*@
 @code
 {
+    class A
+    {
+        public int Value;
+    }
     bool show = false;
     public List<Weapon> weapons = new List<Weapon>()
     {
@@ -51,48 +56,48 @@
                 "ATK 41.3%",
                 "For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12~0.24%. A maximum of 40~80% increased Elemental Burst DMG can be achieved this way.",
                 "https://img.game8.co/3441954/b020641893ee0a28f44a00881a65fcb2.png/show"),
-            //new Weapon(
-            //    "Alley Hunter",
-            //    "Bow",
-            //    "ATK 27.6%",
-            //    "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2~4% every second up to a max of 20~40%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4~8% per second until it reaches 0%.",
-            //    "https://img.game8.co/3441962/32cf25b8629e2534c0fbc292a5688931.png/show"),
-            //new Weapon(
-            //    "Amenoma Kageuchi",
-            //    "Sword",
-            //    "ATK 55.1%",
-            //    "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates 6~12 Energy for each seed consumed.",
-            //    "https://img.game8.co/3385781/11943394cc49218a47fd53753bfafc8c.png/show"),
-            //new Weapon(
-            //    "Blackcliff Agate",
-            //    "Catalyst",
-            //    "CRIT DMG 55.1%",
-            //    "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-            //    "https://img.game8.co/3314394/e7a78868c9b123ce80a813da5d05b520.png/show"),
-            //new Weapon(
-            //    "Blackcliff Longsword",
-            //    "Sword",
-            //    "CRIT DMG 36.8%",
-            //    "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-            //    "https://img.game8.co/3314395/ed36b836606ea3bbdc2c00773157d76b.png/show"),
+            new Weapon(
+                "Alley Hunter",
+                "Bow",
+                "ATK 27.6%",
+                "While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2~4% every second up to a max of 20~40%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4~8% per second until it reaches 0%.",
+                "https://img.game8.co/3441962/32cf25b8629e2534c0fbc292a5688931.png/show"),
+            new Weapon(
+                "Amenoma Kageuchi",
+                "Sword",
+                "ATK 55.1%",
+                "After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates 6~12 Energy for each seed consumed.",
+                "https://img.game8.co/3385781/11943394cc49218a47fd53753bfafc8c.png/show"),
+            new Weapon(
+                "Blackcliff Agate",
+                "Catalyst",
+                "CRIT DMG 55.1%",
+                "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+                "https://img.game8.co/3314394/e7a78868c9b123ce80a813da5d05b520.png/show"),
+            new Weapon(
+                "Blackcliff Longsword",
+                "Sword",
+                "CRIT DMG 36.8%",
+                "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+                "https://img.game8.co/3314395/ed36b836606ea3bbdc2c00773157d76b.png/show"),
             //new Weapon(
             //    "Blackcliff Pole",
             //    "Polearm",
             //    "CRIT DMG 55.1%",
             //    "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
             //    "https://img.game8.co/3314392/2294902481878d53c4a35ac31b875844.png/show"),
-            //new Weapon(
-            //    "Blackcliff Slasher",
-            //    "Greatsword",
-            //    "CRIT DMG 55.1%",
-            //    "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-            //    "https://img.game8.co/3314393/086a7d79ef72ebb44a716cdeaea286cf.png/show"),
-            //new Weapon(
-            //    "Blackcliff Warbow",
-            //    "Bow",
-            //    "CRIT DMG 36.8%",
-            //    "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
-            //    "https://img.game8.co/3314391/1d758510b397d6173177b275bf8d557e.png/show"),
+            new Weapon(
+                "Blackcliff Slasher",
+                "Greatsword",
+                "CRIT DMG 55.1%",
+                "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+                "https://img.game8.co/3314393/086a7d79ef72ebb44a716cdeaea286cf.png/show"),
+            new Weapon(
+                "Blackcliff Warbow",
+                "Bow",
+                "CRIT DMG 36.8%",
+                "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
+                "https://img.game8.co/3314391/1d758510b397d6173177b275bf8d557e.png/show"),
             //new Weapon(
             //    "Cinnabar Spindle",
             //    "Sword",
@@ -766,6 +771,11 @@
             //    "Increases ATK by 20~40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40~80% for 12s. Can only occur once every 30s.",
             //    "https://img.game8.co/3508899/bd5cea463de5add38a8d508d2da17070.png/show")
     };
+    public IEnumerable<Weapon> GetWeapons()
+    {
+        return weapons.Where(x => x.Type == "Polearm");
+    }
+
     Weapon selectedWeapon;
     void Show(Weapon weapon)
     {
