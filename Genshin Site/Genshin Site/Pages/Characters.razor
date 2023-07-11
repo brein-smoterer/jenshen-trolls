@@ -6,7 +6,6 @@
 <h3>Character</h3>
 <button @onclick="() => Expand(roster)">Expand all</button>
 <button @onclick="() => Collaps(roster)">Collaps all</button>
-<button @onclick="() => NavigateToWeapons()">Blank</button>
 <br>
 @foreach (var character in roster)
 {
@@ -14,7 +13,7 @@
     <button @onclick="() => Show(character)">@character.CharacterName</button>
     <div hidden="@(!character.Show)">
         <div>@character.Element</div>
-        <div>@character.Weapon</div>
+        <div @onclick="() => NavigateToWeapons(character)">@character.Weapon</div>
     </div>
     <br>
 }
@@ -153,8 +152,8 @@
             character.Show = false;
         }
     }
-    public void NavigateToWeapons()
+    public void NavigateToWeapons(Character a)
     {
-        NavManager.NavigateTo("/weapons/Polearm");
+        NavManager.NavigateTo("/weapons/" + a.Weapon);
     }
 } 
