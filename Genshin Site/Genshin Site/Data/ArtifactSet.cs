@@ -2,15 +2,16 @@
 {
     public class ArtifactSet
     {
-        public string Img;
-        public string ArtifactSetName { get; }
-        public string ArtifactSetPassive { get; }
-        public bool Show = false;
-        public ArtifactSet(string artifactSetName, string artifactSetPassive, string img)
+        public string Name { get; set; }
+        public string Passive { get; set; }
+        public string Img { get; set; }
+        public bool Show { get; set; }
+        public ArtifactSet(string Name, string Passive, string Img = null, bool Show = false)
         {
-            ArtifactSetName = artifactSetName;
-            ArtifactSetPassive = artifactSetPassive;
-            Img = img;
+            this.Name = Name;
+            this.Passive = Passive;
+            this.Img = Img;
+            this.Show = Show;
         }
     }
 }
