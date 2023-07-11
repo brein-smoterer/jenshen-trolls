@@ -1,12 +1,19 @@
-﻿@page "/weapons"
+﻿@page "/weapons/{SelectedWeaponType}"
 @using Genshin_Site.Data
 <PageTitle>Weapons</PageTitle>
 <h3>Weapons</h3>
-
-
+<div>
+<select selectedWeaponType @onchange="OnWeaponTypeChange" title="Filter">
+    <option value="null" selected>(All)</option>
+    @foreach (var type in GetWeaponTypes())
+    {
+        <option value="@type">@type</option>
+    }
+</select>
+</div>
 @foreach (var weapon in GetWeapons())
 {
-    <img src="@weapon.Image" asp-append-version="true" maxwidth="180px" maxheight="180px"/>
+    <img src="@weapon.Image" asp-append-version="true" maxwidth="180px" maxheight="180px" />
     <button @onclick="() => Show(weapon)">@weapon.Name</button>
     <div hidden="@(!weapon.Show)">
         <div>@weapon.Type</div>
@@ -25,12 +32,11 @@
 }*@
 @code
 {
-    class A
-    {
-        public int Value;
-    }
+    [Parameter]
+    public string? SelectedWeaponType { get; set; }
+
     bool show = false;
-    public List<Weapon> weapons = new List<Weapon>()
+    private List<Weapon> weapons = new List<Weapon>()
     {
             new Weapon(
                 "Thrilling Tales of Dragon Slayers",
@@ -771,9 +777,20 @@
             //    "Increases ATK by 20~40%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40~80% for 12s. Can only occur once every 30s.",
             //    "https://img.game8.co/3508899/bd5cea463de5add38a8d508d2da17070.png/show")
     };
-    public IEnumerable<Weapon> GetWeapons()
+    private IEnumerable<Weapon> GetWeapons()
     {
-        return weapons.Where(x => x.Type == "Polearm");
+        if (SelectedWeaponType != null && SelectedWeaponType != "null")
+            return weapons.Where(x => x.Type == SelectedWeaponType);
+
+        return weapons;
+
+    }
+    private IEnumerable<string> GetWeaponTypes()
+        => weapons.Select(x => x.Type).Distinct().OrderBy(x => x);
+
+    private void OnWeaponTypeChange(ChangeEventArgs e)
+    {
+        SelectedWeaponType = e.Value?.ToString();
     }
 
     Weapon selectedWeapon;
