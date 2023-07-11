@@ -22,6 +22,14 @@
     </div>
     <div hidden="@(!set.Show)">
         <div>@set.Passive</div>
+        @foreach (var artifact in set.Artifacts)
+        {
+            <div>
+            <span>@artifact.Image</span>
+            <span>@artifact.Name</span>
+            <span>@artifact.Slot</span>
+            </div>
+        }
     </div>
     <br />
 }
@@ -43,6 +51,7 @@
     //Save template data
     //protected override void OnInitialized()
     //{
+    //    service.Save();
     //    base.OnInitialized();
     //}
 
