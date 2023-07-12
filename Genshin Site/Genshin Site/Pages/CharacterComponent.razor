@@ -2,8 +2,8 @@
 @inject NavigationManager NavManager
 
 
-<img src="@Character.Imege" asp-append-version="true" width="180px" />
-<button @onclick="() => Show(Character)">@Character.Name</button>
+<img src="@Character.Image" asp-append-version="true" width="180px" />
+<button @onclick="() => Show(Character)">@Character.CharacterName</button>
 <div hidden="@(!Character.Show)">
     <div>@Character.Element</div>
     <div @onclick="() => NavigateToWeapons(Character)">@Character.Weapon</div>
