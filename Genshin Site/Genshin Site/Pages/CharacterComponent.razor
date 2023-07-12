@@ -1,0 +1,25 @@
+﻿@using Genshin_Site.Data;
+@inject NavigationManager NavManager
+
+
+<img src="@Character.Image" asp-append-version="true" width="180px" />
+<button @onclick="() => Show(Character)">@Character.CharacterName</button>
+<div hidden="@(!Character.Show)">
+    <div>@Character.Element</div>
+    <div @onclick="() => NavigateToWeapons(Character)">@Character.Weapon</div>
+</div>
+<br/>
+
+@code {
+    [Parameter]
+    public Character Character { get; set; }
+
+    public void Show(Character character)
+    {
+        character.Show = !character.Show;
+    }
+
+    public void NavigateToWeapons(Character character) 
+        => NavManager.NavigateTo("/weapons/" + character.Weapon);
+
+}
