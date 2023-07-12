@@ -7,7 +7,7 @@
 
 <h3>Artifact Sets</h3>
 
-@foreach (var set in service.GetArtifactSets())
+@foreach (var set in service.GetSets())
 {
     <div @onclick="() => Show(set)">
         @if (set.Img != null)
@@ -25,9 +25,9 @@
         @foreach (var artifact in set.Artifacts)
         {
             <div>
-                <span><img src="@artifact.Image" /></span>
-            <span>@artifact.Name</span>
-            <span>@artifact.Slot</span>
+                <span><img src="@artifact.Image"/></span>
+                <span>@artifact.Name</span>
+                <span>@artifact.Slot</span>
             </div>
         }
     </div>
