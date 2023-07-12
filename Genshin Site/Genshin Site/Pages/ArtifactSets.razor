@@ -7,7 +7,7 @@
 
 <h3>Artifact Sets</h3>
 
-@foreach (var set in service.GetArtifactSets())
+@foreach (var set in service.GetSets())
 {
     <div @onclick="() => Show(set)">
         @if (set.Img != null)

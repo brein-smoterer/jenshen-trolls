@@ -1,18 +1,24 @@
-﻿@page "/weapons/{SelectedWeaponType}"
+﻿@page "/weapons"
+@page "/weapons/{SelectedWeaponType}"
 @using Genshin_Site.Data
+@inject NavigationManager NavigationManager;
 <PageTitle>Weapons</PageTitle>
 <h3>Weapons</h3>
 <div>
 <select selectedWeaponType @onchange="OnWeaponTypeChange" title="Filter">
-    <option value="null" selected>(All)</option>
+    <option value ="null" selected>(All)</option>
     @foreach (var type in GetWeaponTypes())
     {
         <option value="@type">@type</option>
+        
     }
 </select>
 </div>
+
+@*<WeaponsComponent @SelectedWeaponType=@SelectedWeaponType></WeaponComponent>*@
 @foreach (var weapon in GetWeapons())
 {
+
     <img src="@weapon.Image" asp-append-version="true" maxwidth="180px" maxheight="180px" />
     <button @onclick="() => Show(weapon)">@weapon.Name</button>
     <div hidden="@(!weapon.Show)">
@@ -34,8 +40,11 @@
 {
     [Parameter]
     public string? SelectedWeaponType { get; set; }
+    //[Parameter]
+    //public List<string>? SelectedWeaponNames { get; set; }
 
     bool show = false;
+    string vallue = "";
     private List<Weapon> weapons = new List<Weapon>()
     {
             new Weapon(
@@ -94,7 +103,7 @@
             //    "https://img.game8.co/3314392/2294902481878d53c4a35ac31b875844.png/show"),
             new Weapon(
                 "Blackcliff Slasher",
-                "Greatsword",
+                "Claymore",
                 "CRIT DMG 55.1%",
                 "After defeating an opponent, ATK is increased by 12~24% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others.",
                 "https://img.game8.co/3314393/086a7d79ef72ebb44a716cdeaea286cf.png/show"),
@@ -172,7 +181,7 @@
             //    "https://img.game8.co/3314590/560132b7897a6642851d313d988d61a9.png/show"),
             //new Weapon(
             //    "Favonius Greatsword",
-            //    "Greatsword",
+            //    "Claymore",
             //    "Energy Recharge 61.3%",
             //    "CRIT hits have a 60~100% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12~6s.",
             //    "https://img.game8.co/3314476/0a40ecf6456acb15bd8ab7203f982a30.png/show"),
@@ -202,7 +211,7 @@
             //    "https://img.game8.co/3312290/ebd92d61ecf22e7cece4c67b1f7d1f97.jpeg/show"),
             //new Weapon(
             //    "Forest Regalia",
-            //    "Greatsword",
+            //    "Claymore",
             //    "Energy Recharge 30.6%",
             //    "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60~120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
             //    "https://img.game8.co/3580943/04cbf6d1914c47c8d827e29fd6ba0be5.png/show"),
@@ -472,7 +481,7 @@
             //    "https://img.game8.co/3346263/fb1a75e5f067bbbecd05a3c4183b0209.png/show"),
             //new Weapon(
             //    "The Alley Flash",
-            //    "Sowrd",
+            //    "Sword",
             //    "Elemental Mastery 55",
             //    "Increases DMG dealt by the character equipping this weapon by 12~24%. Taking DMG disables this effect for 5s.",
             //    "https://img.game8.co/3334893/270c37faba78c920941bd3e73fa36581.png/show"),
@@ -791,6 +800,7 @@
     private void OnWeaponTypeChange(ChangeEventArgs e)
     {
         SelectedWeaponType = e.Value?.ToString();
+        NavigationManager.NavigateTo($"/weapons/{SelectedWeaponType}");
     }
 
     Weapon selectedWeapon;
@@ -799,5 +809,10 @@
         selectedWeapon = weapon;
         weapon.Show = !weapon.Show;
         Console.WriteLine(weapon.Type);
+    }
+    public void Update(string value)
+    {
+        SelectedWeaponType = value;
+        StateHasChanged();
     }
 }

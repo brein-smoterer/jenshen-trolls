@@ -1,21 +1,19 @@
 ﻿@page "/characters"
 @using Genshin_Site.Data;
-@using Microsoft.AspNetCore.Http.Extensions;
 @inject NavigationManager NavManager
+@using Microsoft.AspNetCore.Http.Extensions;
 
 <h3>Character</h3>
 <button @onclick="() => Expand(roster)">Expand all</button>
 <button @onclick="() => Collaps(roster)">Collaps all</button>
 <br>
-@foreach (var character in roster)
+@foreach (var character in charactersService.Get())
+    @*@foreach (var character in roster)*@
 {
-    <img src="@character.Imege" asp-append-version="true" width="180px" />
-    <button @onclick="() => Show(character)">@character.CharacterName</button>
-    <div hidden="@(!character.Show)">
-        <div>@character.Element</div>
-        <div @onclick="() => NavigateToWeapons(character)">@character.Weapon</div>
+    <div>
+        <CharacterComponent Character=@character />
+        <button @onclick="() => GoToDetails(character)">Details</button>
     </div>
-    <br>
 }
 
 @code
@@ -134,13 +132,13 @@
         new Character("Yunjin", "Geo", "Polearm",false, "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/dexqq1b-275a9d81-0953-47a2-8197-70acd0e3a795.png/v1/fill/w_571,h_350/yun_jin_genshin_impact_portrait_render_by_deg5270_dexqq1b-350t.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg1IiwicGF0aCI6IlwvZlwvNWU1ODk2YTUtNGE3OS00OTZhLWJlYTQtODFmMjZjZmEyNjUwXC9kZXhxcTFiLTI3NWE5ZDgxLTA5NTMtNDdhMi04MTk3LTcwYWNkMGUzYTc5NS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.i9Jq7BcjUiPCl0b1m_RJfh621yAVCwMQjCS1F3T-r7Y"),
         new Character("Zhongli", "Geo", "Polearm",false, "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/deeqrjj-b7415556-8bd0-4beb-9ecc-8e8accae66e6.png/v1/fill/w_571,h_350/zhongli_genshin_impact_portrait_render_by_deg5270_deeqrjj-350t.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg1IiwicGF0aCI6IlwvZlwvNWU1ODk2YTUtNGE3OS00OTZhLWJlYTQtODFmMjZjZmEyNjUwXC9kZWVxcmpqLWI3NDE1NTU2LThiZDAtNGJlYi05ZWNjLThlOGFjY2FlNjZlNi5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.6XDwsx3A1lUTlEzEDlm33hc48nyXqV0ftlUko4xYLXc"),
     };
-    public void Show(Character character)
-    {
-        character.Show = !character.Show;
-    }
+
+    private void GoToDetails(Character character)
+        => NavManager.NavigateTo($"/characters/{character.Name}");
+
     public void Expand(List<Character> a)
     {
-        foreach(var character in a)
+        foreach (var character in a)
         {
             character.Show = true;
         }
@@ -151,9 +149,5 @@
         {
             character.Show = false;
         }
-    }
-    public void NavigateToWeapons(Character a)
-    {
-        NavManager.NavigateTo("/weapons/" + a.Weapon);
     }
 } 
