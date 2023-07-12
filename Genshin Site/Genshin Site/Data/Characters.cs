@@ -8,12 +8,12 @@
         public bool Show { get; set; }
         public string Imege { get; }
 
-        public Character(string CharacterName1, string Element1, string Weapon1, bool Show1, string imgae)
+        public Character(string CharacterName1, string Element1, string Weapon1,bool Show1, string imgae)
         {
             CharacterName = CharacterName1;
             Element = Element1;
             Weapon = Weapon1;
-            Show = false;
+            Show = Show1;
             Imege = imgae;
         }
     }
