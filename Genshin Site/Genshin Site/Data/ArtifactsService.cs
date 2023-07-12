@@ -6,7 +6,7 @@ namespace Genshin_Site.Data
     {
         private string fileName = "ArtifactSets.json";
         private List<ArtifactSet> artifactSets;
-        public List<ArtifactSet> GetArtifactSets()
+        public List<ArtifactSet> GetSets()
         {
             if (artifactSets == null)
             {

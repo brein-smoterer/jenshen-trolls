@@ -2,7 +2,7 @@
 {
     public class Character
     {
-        public string CharacterName { get; }
+        public string Name { get; }
         public string Element { get; }
         public string Weapon { get; }
         public bool Show { get; set; }
@@ -10,7 +10,7 @@
 
         public Character(string CharacterName1, string Element1, string Weapon1, bool Show1, string imgae)
         {
-            CharacterName = CharacterName1;
+            Name = CharacterName1;
             Element = Element1;
             Weapon = Weapon1;
             Show = false;
