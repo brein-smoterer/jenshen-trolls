@@ -235,7 +235,7 @@
 		"Passive": "2 Piece: Increases Shield Strength by 35%. 4 Piece: While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Night's Masknet",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png"
 			},
@@ -260,7 +260,7 @@
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Summer_Night%27s_Mask.png"
 			}
 		],
-		"Img": "https://static.wikia.nocookie.Summer Night's Masknet/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png",
+		"Img": "https://static.wikia.nocookie.Summer/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png",
 		"Show": false
 	},
 	{
