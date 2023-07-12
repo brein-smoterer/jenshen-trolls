@@ -1,0 +1,36 @@
+﻿@using Genshin_Site.Data;
+<div @onclick="() => Show(ArtifactSet)">
+    @if (ArtifactSet.Img != null)
+    {
+        <img src="@ArtifactSet.Img" />
+    }
+    else
+    {
+        <img src="https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Initiate%27s_Flower.png" />
+    }
+    <span>@ArtifactSet.Name</span>
+</div>
+<div hidden="@(!ArtifactSet.Show)">
+    <div>@ArtifactSet.Passive</div>
+    @foreach (var artifact in ArtifactSet.Artifacts)
+    {
+        <div>
+            <span><img src="@artifact.Image" /></span>
+            <span>@artifact.Name</span>
+            <span>@artifact.Slot</span>
+        </div>
+    }
+</div>
+<br />
+
+@code {
+    [Parameter]
+    public ArtifactSet ArtifactSet { get; set; }
+    ArtifactSet? selectedArtifactSet;
+
+    void Show(ArtifactSet artifactSets)
+    {
+        selectedArtifactSet = artifactSets;
+        artifactSets.Show = !artifactSets.Show;
+    }
+}
