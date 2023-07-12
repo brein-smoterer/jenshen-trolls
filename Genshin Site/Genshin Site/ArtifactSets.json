@@ -4,27 +4,27 @@
 		"Passive": "2 Piece: ATK \u002B18%. 4 Piece: If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Gladiator's Nostalgia",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Item_Gladiator%27s_Nostalgia.png"
 			},
 			{
-				"Name": "",
+				"Name": "Gladiator's Destiny",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Gladiator%27s_Destiny.png"
 			},
 			{
-				"Name": "",
+				"Name": "Gladiator's LongiGladiator's Longingng",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Gladiator%27s_Longing.png"
 			},
 			{
-				"Name": "",
+				"Name": "Gladiator's Intoxication",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Item_Gladiator%27s_Intoxication.png"
 			},
 			{
-				"Name": "",
+				"Name": "Gladiator's Triumphus",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Item_Gladiator%27s_Triumphus.png"
 			}
@@ -37,29 +37,29 @@
 		"Passive": "2 Piece: Increases Elemental Mastery by 80. 4 Piece: Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Troupe's Dawnlight",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Troupe%27s_Dawnlight.png"
 			},
 			{
-				"Name": "",
+				"Name": "Bard's Arrow Feather",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4e/Item_Bard%27s_Arrow_Feather.png"
 			},
 			{
-				"Name": "",
+				"Name": "Concert's Final Hour",
 				"Slot": "Sands of Eon",
-				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Concert%27s_Final_Hour.png/50?cb=20201120063951"
+				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Item_Concert%27s_Final_Hour.png"
 			},
 			{
-				"Name": "",
+				"Name": "Wanderer's String-Kettle",
 				"Slot": "Goblet of Eonothem",
-				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Wanderer%27s_String-Kettle.png/50?cb=20201120064002"
+				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Item_Wanderer%27s_String-Kettle.png"
 			},
 			{
-				"Name": "",
+				"Name": "Conductor's Top Hat",
 				"Slot": "Circlet of Logos",
-				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Conductor%27s_Top_Hat.png/50?cb=20201120064011"
+				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Conductor%27s_Top_Hat.png"
 			}
 		],
 		"Img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Item_Troupe%27s_Dawnlight.png",
@@ -70,27 +70,27 @@
 		"Passive": "2 Piece: Elemental Burst DMG \u002B20%. 4 Piece: Using an Elemental Burst increases all party members\u0027 ATK by 20% for 12s. This effect cannot stack.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Royal Flora",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Item_Royal_Flora.png"
 			},
 			{
-				"Name": "",
+				"Name": "Royal Plume",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ee/Item_Royal_Plume.png"
 			},
 			{
-				"Name": "",
+				"Name": "Royal Pocket Watch",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1a/Item_Royal_Pocket_Watch.png"
 			},
 			{
-				"Name": "",
+				"Name": "Royal Silver Urn",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Royal_Silver_Urn.png"
 			},
 			{
-				"Name": "",
+				"Name": "Royal Masque",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Item_Royal_Masque.png"
 			}
@@ -103,27 +103,27 @@
 		"Passive": "2 Piece: Physical DMG Bonus \u002B25%. 4 Piece: After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. Also triggers with wild animals such as boars, squirrels and frogs.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Bloodstained Flower of Iron",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5b/Item_Bloodstained_Flower_of_Iron.png"
 			},
 			{
-				"Name": "",
+				"Name": "Bloodstained Black Plume",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Item_Bloodstained_Black_Plume.png"
 			},
 			{
-				"Name": "",
+				"Name": "Bloodstained Final Hour",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8c/Item_Bloodstained_Final_Hour.png"
 			},
 			{
-				"Name": "",
+				"Name": "Bloodstained Chevalier's Goblet",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Bloodstained_Chevalier%27s_Goblet.png"
 			},
 			{
-				"Name": "",
+				"Name": "Bloodstained Iron Mask",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Bloodstained_Iron_Mask.png"
 			}
@@ -136,27 +136,27 @@
 		"Passive": "2 Piece: Character Healing Effectiveness \u002B15%. 4 Piece: Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Maiden's Distant Love",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/d/dc/Item_Maiden%27s_Distant_Love.png"
 			},
 			{
-				"Name": "",
+				"Name": "Maiden's Heart-Stricken Infatuation",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Item_Maiden%27s_Heart-Stricken_Infatuation.png"
 			},
 			{
-				"Name": "",
+				"Name": "Maiden's Passing Youth",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/93/Item_Maiden%27s_Passing_Youth.png"
 			},
 			{
-				"Name": "",
+				"Name": "Maiden's Fleeting Leisure",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Maiden%27s_Fleeting_Leisure.png"
 			},
 			{
-				"Name": "",
+				"Name": "Maiden's Fading Beauty",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Item_Maiden%27s_Fading_Beauty.png"
 			}
@@ -169,27 +169,27 @@
 		"Passive": "2 Piece: Anemo DMG Bonus \u002B15%. 4 Piece: Increases Swirl DMG by 60%. Decreases opponent\u0027s Elemental RES to the element infused in the Swirl by 40% for 10s.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "In Remembrance of Viridescent Fields",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/90/Item_In_Remembrance_of_Viridescent_Fields.png"
 			},
 			{
-				"Name": "",
+				"Name": "Viridescent Arrow Feather",
 				"Slot": "Plume of Death",
-				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Viridescent_Arrow_Feather.png/50?cb=20201120064516"
+				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Viridescent_Arrow_Feather.png"
 			},
 			{
-				"Name": "",
+				"Name": "Viridescent Venerer's Determination",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Viridescent_Venerer%27s_Determination.png"
 			},
 			{
-				"Name": "",
+				"Name": "Viridescent Venerer's Vessel",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Viridescent_Venerer%27s_Vessel.png"
 			},
 			{
-				"Name": "",
+				"Name": "Viridescent Venerer's Diadem",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Item_Viridescent_Venerer%27s_Diadem.png"
 			}
@@ -202,27 +202,27 @@
 		"Passive": "2 Piece: Geo DMG Bonus \u002B15%. 4 Piece: Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Viridescent Venerer's Diadem",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Item_Flower_of_Creviced_Cliff.png"
 			},
 			{
-				"Name": "",
+				"Name": "Feather of Jagged Peaks",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Feather_of_Jagged_Peaks.png"
 			},
 			{
-				"Name": "",
+				"Name": "Sundial of Enduring Jade",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1d/Item_Sundial_of_Enduring_Jade.png"
 			},
 			{
-				"Name": "",
+				"Name": "Goblet of Chiseled Crag",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Item_Goblet_of_Chiseled_Crag.png"
 			},
 			{
-				"Name": "",
+				"Name": "Mask of Solitude Basalt",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Item_Mask_of_Solitude_Basalt.png"
 			}
@@ -240,27 +240,27 @@
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png"
 			},
 			{
-				"Name": "",
+				"Name": "Summer Night's Bloom",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Item_Summer_Night%27s_Finale.png"
 			},
 			{
-				"Name": "",
+				"Name": "Summer Night's Finale",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Item_Summer_Night%27s_Moment.png"
 			},
 			{
-				"Name": "",
+				"Name": "Summer Night's Moment",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/1/10/Item_Summer_Night%27s_Waterballoon.png"
 			},
 			{
-				"Name": "",
+				"Name": "Summer Night's Waterballoon",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Item_Summer_Night%27s_Mask.png"
 			}
 		],
-		"Img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png",
+		"Img": "https://static.wikia.nocookie.Summer Night's Masknet/gensin-impact/images/a/a6/Item_Summer_Night%27s_Bloom.png",
 		"Show": false
 	},
 	{
@@ -268,27 +268,27 @@
 		"Passive": "2 Piece: Electro RES increased by 40%. 4 Piece: Increases DMG against opponents affected by Electro by 35%.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Thundersoother's Heart",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/Item_Thundersoother%27s_Heart.png"
 			},
 			{
-				"Name": "",
+				"Name": "Thundersoother's Plume",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cb/Item_Thundersoother%27s_Plume.png"
 			},
 			{
-				"Name": "",
+				"Name": "Hour of Soothing Thunder",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Item_Hour_of_Soothing_Thunder.png"
 			},
 			{
-				"Name": "",
+				"Name": "Thundersoother's Goblet",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Item_Thundersoother%27s_Goblet.png"
 			},
 			{
-				"Name": "",
+				"Name": "Thundersoother's Diadem",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Thundersoother%27s_Diadem.png"
 			}
@@ -301,27 +301,27 @@
 		"Passive": "2 Piece: Electro DMG Bonus \u002B15%. 4 Piece: Increases DMG caused by Overloaded, Electro-Charged, Superconduct, and Hyperbloom by 40%, and the DMG Bonus conferred by Aggravate is increased by 20%. When Quicken or the aforementioned Elemental Reactions are triggered, Elemental Skill CD is decreased by 1s. Can only occur once every 0.8s.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Thunderbird's Mercy",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Thunderbird%27s_Mercy.png"
 			},
 			{
-				"Name": "",
+				"Name": "Survivor of Catastrophe",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e9/Item_Survivor_of_Catastrophe.png"
 			},
 			{
-				"Name": "",
+				"Name": "Hourglass of Thunder",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Item_Hourglass_of_Thunder.png"
 			},
 			{
-				"Name": "",
+				"Name": "Omen of Thunderstorm",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Omen_of_Thunderstorm.png"
 			},
 			{
-				"Name": "",
+				"Name": "Thunder Summoner's Crown",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a5/Item_Thunder_Summoner%27s_Crown.png"
 			}
@@ -334,27 +334,27 @@
 		"Passive": "2 Piece: Pyro RES increased by 40%. 4 Piece: Increases DMG against opponents affected by Pyro by 35%.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Lavawalker's Resolution",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b5/Item_Lavawalker%27s_Resolution.png"
 			},
 			{
-				"Name": "",
+				"Name": "Lavawalker's Salvation",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Item_Lavawalker%27s_Salvation.png"
 			},
 			{
-				"Name": "",
+				"Name": "Lavawalker's Torment",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3f/Item_Lavawalker%27s_Torment.png"
 			},
 			{
-				"Name": "",
+				"Name": "Lavawalker's Epiphany",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Item_Lavawalker%27s_Epiphany.png"
 			},
 			{
-				"Name": "",
+				"Name": "Lavawalker's Wisdom",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Lavawalker%27s_Wisdom.png"
 			}
@@ -367,27 +367,27 @@
 		"Passive": "2 Piece: Pyro DMG Bonus \u002B15%. 4 Piece: Increases Overloaded and Burning, and Burgeon DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Witch's Flower of Blaze",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Witch%27s_Flower_of_Blaze.png"
 			},
 			{
-				"Name": "",
+				"Name": "Witch's Ever-Burning Plume",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Item_Witch%27s_Ever-Burning_Plume.png"
 			},
 			{
-				"Name": "",
+				"Name": "Witch's End Time",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Item_Witch%27s_End_Time.png"
 			},
 			{
-				"Name": "",
+				"Name": "Witch's Heart Flames",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Item_Witch%27s_Heart_Flames.png"
 			},
 			{
-				"Name": "",
+				"Name": "Witch's Scorching Hat",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Witch%27s_Scorching_Hat.png"
 			}
@@ -400,27 +400,27 @@
 		"Passive": "2 Piece: Cryo DMG Bonus \u002B15%. 4 Piece: When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Snowswept Memory",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Item_Snowswept_Memory.png"
 			},
 			{
-				"Name": "",
+				"Name": "Icebreaker's Resolve",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Icebreaker%27s_Resolve.png"
 			},
 			{
-				"Name": "",
+				"Name": "Frozen Homeland's Demise",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Frozen_Homeland%27s_Demise.png"
 			},
 			{
-				"Name": "",
+				"Name": "Frost-Weaved Dignity",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Item_Frost-Weaved_Dignity.png"
 			},
 			{
-				"Name": "",
+				"Name": "Broken Rime's Echo",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Item_Broken_Rime%27s_Echo.png"
 			}
@@ -433,27 +433,27 @@
 		"Passive": "2 Piece: Hydro DMG Bonus \u002B15%. 4 Piece: After using an Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Gilded Corsage",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/40/Item_Gilded_Corsage.png"
 			},
 			{
-				"Name": "",
+				"Name": "Gust of Nostalgia",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Gust_of_Nostalgia.png"
 			},
 			{
-				"Name": "",
+				"Name": "Copper Compass",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Item_Copper_Compass.png"
 			},
 			{
-				"Name": "",
+				"Name": "Goblet of Thundering Deep",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Item_Goblet_of_Thundering_Deep.png"
 			},
 			{
-				"Name": "",
+				"Name": "Wine-Stained Tricorne",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Item_Wine-Stained_Tricorne.png"
 			}
@@ -466,27 +466,27 @@
 		"Passive": "2 Piece: HP \u002B20%. 4 Piece: When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Flower of Accolades",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Item_Flower_of_Accolades.png"
 			},
 			{
-				"Name": "",
+				"Name": "Ceremonial War-Plume",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Ceremonial_War-Plume.png"
 			},
 			{
-				"Name": "",
+				"Name": "Orichalceous Time-Dial",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Orichalceous_Time-Dial.png"
 			},
 			{
-				"Name": "",
+				"Name": "Noble's Pledging Vessel",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f4/Item_Noble%27s_Pledging_Vessel.png"
 			},
 			{
-				"Name": "",
+				"Name": "General's Ancient Helm",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Item_General%27s_Ancient_Helm.png"
 			}
@@ -499,27 +499,27 @@
 		"Passive": "2 Piece: Physical DMG Bonus \u002B25%. 4 Piece: When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Stainless Bloom",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Item_Stainless_Bloom.png"
 			},
 			{
-				"Name": "",
+				"Name": "Wise Doctor's Pinion",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Item_Wise_Doctor%27s_Pinion.png"
 			},
 			{
-				"Name": "",
+				"Name": "Moment of Cessation",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/85/Item_Moment_of_Cessation.png"
 			},
 			{
-				"Name": "",
+				"Name": "Surpassing Cup",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4b/Item_Surpassing_Cup.png"
 			},
 			{
-				"Name": "",
+				"Name": "Mocking Mask",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Mocking_Mask.png"
 			}
@@ -532,27 +532,27 @@
 		"Passive": "2 Piece: ATK \u002B18%. 4 Piece: When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Entangling Bloom",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Entangling_Bloom.png"
 			},
 			{
-				"Name": "",
+				"Name": "Shaft of Remembrance",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Item_Shaft_of_Remembrance.png"
 			},
 			{
-				"Name": "",
+				"Name": "Morning Dew's Moment",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_Morning_Dew%27s_Moment.png"
 			},
 			{
-				"Name": "",
+				"Name": "Hopeful Heart",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Item_Hopeful_Heart.png"
 			},
 			{
-				"Name": "",
+				"Name": "Capricious Visage",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Capricious_Visage.png"
 			}
@@ -565,27 +565,27 @@
 		"Passive": "2 Piece: Energy Recharge \u002B20%. 4 Piece: Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Magnificent Tsuba",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Magnificent_Tsuba.png"
 			},
 			{
-				"Name": "",
+				"Name": "Sundered Feather",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Sundered_Feather.png"
 			},
 			{
-				"Name": "",
+				"Name": "Storm Cage",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Item_Storm_Cage.png"
 			},
 			{
-				"Name": "",
+				"Name": "Scarlet Vessel",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Item_Scarlet_Vessel.png"
 			},
 			{
-				"Name": "",
+				"Name": "Ornate Kabuto",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/04/Item_Ornate_Kabuto.png"
 			}
@@ -598,27 +598,27 @@
 		"Passive": "2 Piece: DEF \u002B30%. 4 Piece: A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Bloom Times",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Bloom_Times.png"
 			},
 			{
-				"Name": "",
+				"Name": "Plume of Luxury",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Item_Plume_of_Luxury.png"
 			},
 			{
-				"Name": "",
+				"Name": "Song of Life",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4f/Item_Song_of_Life.png"
 			},
 			{
-				"Name": "",
+				"Name": "Calabash of Awakening",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/6/63/Item_Calabash_of_Awakening.png"
 			},
 			{
-				"Name": "",
+				"Name": "Skeletal Hat",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Skeletal_Hat.png"
 			}
@@ -631,27 +631,27 @@
 		"Passive": "2 Piece: Healing Bonus \u002B15%. 4 Piece: When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing). At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing. (This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses). Only one Sea-Dyed Foam can be produced every 3.5 seconds. Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing). There can be no more than one Sea-Dyed Foam active at any given time. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Sea-Dyed Blossom",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Item_Sea-Dyed_Blossom.png"
 			},
 			{
-				"Name": "",
+				"Name": "Deep Palace's Plume",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_Deep_Palace%27s_Plume.png"
 			},
 			{
-				"Name": "",
+				"Name": "Cowry of Parting",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ed/Item_Cowry_of_Parting.png"
 			},
 			{
-				"Name": "",
+				"Name": "Pearl Cage",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fc/Item_Pearl_Cage.png"
 			},
 			{
-				"Name": "",
+				"Name": "Crown of Watatsumi",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Item_Crown_of_Watatsumi.png"
 			}
@@ -664,27 +664,27 @@
 		"Passive": "2 Piece: ATK \u002B18%. 4 Piece: After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character\u0027s HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Flowering Life",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/1/11/Item_Flowering_Life.png"
 			},
 			{
-				"Name": "",
+				"Name": "Feather of Nascent Light",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a7/Item_Feather_of_Nascent_Light.png"
 			},
 			{
-				"Name": "",
+				"Name": "Solar Relic",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/1/12/Item_Solar_Relic.png"
 			},
 			{
-				"Name": "",
+				"Name": "Moment of the Pact",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/7/77/Item_Moment_of_the_Pact.png"
 			},
 			{
-				"Name": "",
+				"Name": "Thundering Pois",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Item_Thundering_Poise.png"
 			}
@@ -697,27 +697,27 @@
 		"Passive": "2 Piece: ATK \u002B18%. 4 Piece: When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK. This effect will be dispelled 0.05s after a Normal Attack deals DMG. If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%. This trigger can occur once every 0.2s.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Soulscent Bloom",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Item_Soulscent_Bloom.png"
 			},
 			{
-				"Name": "",
+				"Name": "Jade Leaf",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/97/Item_Jade_Leaf.png"
 			},
 			{
-				"Name": "",
+				"Name": "Symbol of Felicitation",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Item_Symbol_of_Felicitation.png"
 			},
 			{
-				"Name": "",
+				"Name": "Chalice of the Font",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Item_Chalice_of_the_Font.png"
 			},
 			{
-				"Name": "",
+				"Name": "Flowing Rings",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Item_Flowing_Rings.png"
 			}
@@ -730,27 +730,27 @@
 		"Passive": "2 Piece: Dendro DMG Bonus \u002B15%. 4 Piece: After Elemental Skills or Bursts hit opponents, the targets\u0027 Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Labyrinth Wayfarer",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Item_Labyrinth_Wayfarer.png"
 			},
 			{
-				"Name": "",
+				"Name": "Scholar of Vines",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Item_Scholar_of_Vines.png"
 			},
 			{
-				"Name": "",
+				"Name": "A Time of Insight",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7c/Item_A_Time_of_Insight.png"
 			},
 			{
-				"Name": "",
+				"Name": "Lamp of the Lost",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cd/Item_Lamp_of_the_Lost.png"
 			},
 			{
-				"Name": "",
+				"Name": "Laurel Coronet",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b8/Item_Laurel_Coronet.png"
 			}
@@ -763,27 +763,27 @@
 		"Passive": "2 Piece: Increases Elemental Mastery by 80. 4 Piece: Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members. ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Dreaming Steelbloom",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Dreaming_Steelbloom.png"
 			},
 			{
-				"Name": "",
+				"Name": "Feather of Judgment",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Item_Feather_of_Judgment.png"
 			},
 			{
-				"Name": "",
+				"Name": "The Sunken Years",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/92/Item_The_Sunken_Years.png"
 			},
 			{
-				"Name": "",
+				"Name": "Honeyed Final Feast",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Honeyed_Final_Feast.png"
 			},
 			{
-				"Name": "",
+				"Name": "Shadow of the Sand King",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2b/Item_Shadow_of_the_Sand_King.png"
 			}
@@ -796,27 +796,27 @@
 		"Passive": "2 Piece: Anemo DMG Bonus \u002B15%. 4 Piece: When Charged Attacks hit opponents, the equipping character\u0027s Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "The First Days of the City of Kings",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Item_The_First_Days_of_the_City_of_Kings.png"
 			},
 			{
-				"Name": "",
+				"Name": "End of the Golden Realm",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Item_End_of_the_Golden_Realm.png"
 			},
 			{
-				"Name": "",
+				"Name": "Timepiece of the Lost Path",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/4/45/Item_Timepiece_of_the_Lost_Path.png"
 			},
 			{
-				"Name": "",
+				"Name": "Defender of the Enchanting Dream",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/5/57/Item_Defender_of_the_Enchanting_Dream.png"
 			},
 			{
-				"Name": "",
+				"Name": "Legacy of the Desert High-Born",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0c/Item_Legacy_of_the_Desert_High-Born.png"
 			}
@@ -829,27 +829,27 @@
 		"Passive": "2 Piece: Increases Elemental Mastery by 80. 4 Piece: The equipping character\u0027s Bloom, Hyperbloom, and Burgeon reaction DMG are increased by 40%. Additionally, after the equipping character triggers Bloom, Hyperbloom, or Burgeon, they will gain another 25% bonus to the effect mentioned prior. Each stack of this lasts 10s. Max 4 stacks simultaneously. This effect can only be triggered once per second. The character who equips this can still trigger its effects when not on the field.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Ay-Khanoum's Myriad",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8f/Item_Ay-Khanoum%27s_Myriad.png"
 			},
 			{
-				"Name": "",
+				"Name": "Wilting Feast",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f1/Item_Wilting_Feast.png"
 			},
 			{
-				"Name": "",
+				"Name": "A Moment Congealed",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/3/33/Item_A_Moment_Congealed.png"
 			},
 			{
-				"Name": "",
+				"Name": "Secret-Keeper's Magic Bottle",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6f/Item_Secret-Keeper%27s_Magic_Bottle.png"
 			},
 			{
-				"Name": "",
+				"Name": "Amethyst Crown",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Item_Amethyst_Crown.png"
 			}
@@ -862,27 +862,27 @@
 		"Passive": "2 Piece: Hydro DMG Bonus \u002B15%. 4 Piece: After Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts hit opponents. 1 stack of Mirrored Nymph will triggered, lasting 8s. When under the effect of 1, 2, or 3 or more Mirrored Nymph stacks, ATK will be increased by 7%/16%/25%, and Hydro DMG will be increased by 4%/9%/15% Mirrored Nymph created by Normal, Charged, and Plunging Attacks, Elemental Skills, and Elemental Bursts exist independently.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Odyssean Flower",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Item_Odyssean_Flower.png"
 			},
 			{
-				"Name": "",
+				"Name": "Wicked Mage's Plumule",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ea/Item_Wicked_Mage%27s_Plumule.png"
 			},
 			{
-				"Name": "",
+				"Name": "Nymph's Constancy",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Nymph%27s_Constancy.png"
 			},
 			{
-				"Name": "",
+				"Name": "Heroes' Tea Party",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Item_Heroes%27_Tea_Party.png"
 			},
 			{
-				"Name": "",
+				"Name": "Fell Dragon's Monocle",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/f/ff/Item_Fell_Dragon%27s_Monocle.png"
 			}
@@ -895,27 +895,27 @@
 		"Passive": "2 Piece: HP \u002B20%. 4 Piece: Elemental Skill and Elemental Burst DMG will be increased by 10%. After the equipping character takes DMG, the aforementioned DMG Bonus is increased by 80% for 5s. This effect increase can have 5 stacks. The duration of each stack is counted independently. These effects can be triggered even when the equipping character is not on the field.",
 		"Artifacts": [
 			{
-				"Name": "",
+				"Name": "Stamen of Khvarena's Origin",
 				"Slot": "Flower of Life",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/Item_Stamen_of_Khvarena%27s_Origin.png"
 			},
 			{
-				"Name": "",
+				"Name": "Vibrant Pinion",
 				"Slot": "Plume of Death",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/0/09/Item_Vibrant_Pinion.png"
 			},
 			{
-				"Name": "",
+				"Name": "Ancient Abscission",
 				"Slot": "Sands of Eon",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Ancient_Abscission.png"
 			},
 			{
-				"Name": "",
+				"Name": "Feast of Boundless Joy",
 				"Slot": "Goblet of Eonothem",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/9/99/Item_Feast_of_Boundless_Joy.png"
 			},
 			{
-				"Name": "",
+				"Name": "Heart of Khvarena's Brilliance",
 				"Slot": "Circlet of Logos",
 				"Image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fa/Item_Heart_of_Khvarena%27s_Brilliance.png"
 			}
