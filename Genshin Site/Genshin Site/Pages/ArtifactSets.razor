@@ -9,29 +9,7 @@
 
 @foreach (var set in service.GetSets())
 {
-    <div @onclick="() => Show(set)">
-        @if (set.Img != null)
-        {
-            <img src="@set.Img" />
-        }
-        else
-        {
-            <img src="https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Initiate%27s_Flower.png" />
-        }
-        <span>@set.Name</span>
-    </div>
-    <div hidden="@(!set.Show)">
-        <div>@set.Passive</div>
-        @foreach (var artifact in set.Artifacts)
-        {
-            <div>
-                <span><img src="@artifact.Image"/></span>
-                <span>@artifact.Name</span>
-                <span>@artifact.Slot</span>
-            </div>
-        }
-    </div>
-    <br />
+    <ArtifactSetComponent ArtifactSet=@set/>
 }
 @*@foreach (var file in files)
 {
@@ -41,13 +19,7 @@
 
 
 @code {
-    ArtifactSet? selectedArtifactSet;
 
-    void Show(ArtifactSet artifactSets)
-    {
-        selectedArtifactSet = artifactSets;
-        artifactSets.Show = !artifactSets.Show;
-    }
     //Save template data
     //protected override void OnInitialized()
     //{
