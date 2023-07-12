@@ -2,19 +2,19 @@
 {
     public class Character
     {
-        public string Name { get; }
-        public string Element { get; }
-        public string Weapon { get; }
+        public string CharacterName { get; set; }
+        public string Element { get; set; }
+        public string Weapon { get; set; }
         public bool Show { get; set; }
-        public string Imege { get; }
+        public string Image { get; set; }
 
-        public Character(string CharacterName1, string Element1, string Weapon1, bool Show1, string imgae)
+        public Character(string CharacterName, string Element, string Weapon, bool Show, string Image)
         {
-            Name = CharacterName1;
-            Element = Element1;
-            Weapon = Weapon1;
-            Show = false;
-            Imege = imgae;
+            this.CharacterName = CharacterName;
+            this.Element = Element;
+            this.Weapon = Weapon;
+            this.Show = Show;
+            this.Image = Image;
         }
     }
 }
