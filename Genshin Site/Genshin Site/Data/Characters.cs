@@ -7,9 +7,15 @@
         public string Weapon { get; set; }
         public bool Show { get; set; }
         public string Image { get; set; }
-        public List<Build> Builds { get; set; }    
+        public List<Build>? Builds { get; set; }    
 
-        public Character(string CharacterName, string Element, string Weapon, bool Show, string Image, List<Build> builds)
+        public Character(
+            string CharacterName, 
+            string Element, 
+            string Weapon, 
+            bool Show, 
+            string Image, 
+            List<Build>? builds = null)
         {
             this.CharacterName = CharacterName;
             this.Element = Element;
