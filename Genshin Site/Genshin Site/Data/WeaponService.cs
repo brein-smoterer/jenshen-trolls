@@ -15,6 +15,9 @@ namespace Genshin_Site.Data
 
         }
 
+        public IEnumerable<string> GetWeaponTypes()
+            => weapons.Select(x => x.Type).Distinct().OrderBy(x => x);
+
         //Load and save json
         //public List<Weapon> GetWeapon()
         //{

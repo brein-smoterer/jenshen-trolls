@@ -9,6 +9,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<ArtifactsService>();
 builder.Services.AddSingleton<charactersService>();
+builder.Services.AddSingleton<WeaponService>();
 
 
 
