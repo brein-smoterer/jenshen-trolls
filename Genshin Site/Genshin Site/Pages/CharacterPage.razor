@@ -6,13 +6,16 @@
 @{
     Character character = Get(CharacterName);
     <CharacterComponent Character=@character />
-    //<div>
-    //    @foreach (var build in character.Builds)
-    //    {
-    //   <WeaponsComponent @WeaponsNames=@build.Weapons></WeaponComponent>
-
-    //    }
-    //</div>
+    <div>
+        @foreach (var build in character.Builds)
+        {
+            <div>"Weapons"</div>
+            @foreach(var weapon in build.Weapons)
+            {
+               <div>@weapon</div>
+            }
+        }
+    </div>
 }
 @code {
     [Parameter]
@@ -20,11 +23,33 @@
 
     public Character Get(string name)
     {
-        Character needed = new Character("", "", "", false, "");
+        Character needed = new Character(
+            "",
+            "",
+            "",
+            false,
+            "",
+            new List<Build>()
+                {
+                    new Build(
+                        new List<string>
+                        {
+                            "",
+                        },
+                        new List<string> 
+                        { 
+                            "",
+                        },
+                        new List<string> 
+                        { 
+                            "",
+                        }
+                    )
+                });
         List<Character> characters = service.Get();
-        foreach(var character in characters)
+        foreach (var character in characters)
         {
-            if(character.CharacterName == name)
+            if (character.CharacterName == name)
             {
                 needed = character;
             }
