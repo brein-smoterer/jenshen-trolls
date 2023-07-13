@@ -1,0 +1,12 @@
+﻿.expand
+
+{
+	width: auto;
+	border-style: none;
+	border-block-color: aqua;
+	margin: 0px;
+}
+
+.expand:hover {
+	background-color: blanchedalmond;
+}
