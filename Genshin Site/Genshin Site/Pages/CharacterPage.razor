@@ -1,6 +1,6 @@
 ﻿@page "/characters/{CharacterName}";
 @using Genshin_Site.Data;
-@inject charactersService service;
+@inject CharactersService service;
 
 
 @{
@@ -9,10 +9,20 @@
     <div>
         @foreach (var build in character.Builds)
         {
-            <div>"Weapons"</div>
+            <h4>Weapons</h4>
             @foreach(var weapon in build.Weapons)
             {
                <div>@weapon</div>
+            }
+            <h4>Artifacts</h4>
+            @foreach (var artifacts in build.ArtifactSets)
+            {
+                <div>@artifacts</div>
+            }
+            <h4>Stats</h4>
+            @foreach (var stats in build.Stats)
+            {
+                <div>@stats</div>
             }
         }
     </div>
