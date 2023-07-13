@@ -1,6 +1,7 @@
 ﻿@page "/characters/{CharacterName}";
 @using Genshin_Site.Data;
 @inject CharactersService service;
+@inject WeaponService service2;
 
 
 @{
@@ -12,7 +13,9 @@
             <h4>Weapons</h4>
             @foreach(var weapon in build.Weapons)
             {
-               <div>@weapon</div>
+                Weapon test = GetWeapon(weapon);
+                <img src="@test.Image" asp-append-version="true" maxwidth="180px" maxheight="180px" />
+                <div>@test.Name</div>
             }
             <h4>Artifacts</h4>
             @foreach (var artifacts in build.ArtifactSets)
@@ -62,6 +65,23 @@
             if (character.CharacterName == name)
             {
                 needed = character;
+            }
+            else
+            {
+                continue;
+            }
+        }
+        return needed;
+    }
+    public Weapon GetWeapon(string name)
+    {
+        Weapon needed = new Weapon( "", "", "", "", "");
+        List<Weapon> weapons = service2.Get();
+        foreach (var weapon in weapons)
+        {
+            if( weapon.Name == name)
+            {
+                needed = weapon;
             }
             else
             {
