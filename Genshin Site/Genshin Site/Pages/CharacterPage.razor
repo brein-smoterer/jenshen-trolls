@@ -3,7 +3,12 @@
 @inject CharactersService characterService;
 @inject WeaponService weaponService;
 @inject ArtifactsService artifactService;
-
+<style>
+    .columns{
+        display:flex;
+        flex: 400px 400px 400px; /*grow | shrink | basis */
+    }
+</style>
 
 @{
     Character character = GetCharacter(CharacterName);
@@ -11,22 +16,30 @@
     <div>
         @foreach (var build in character.Builds)
         {
-            <h4>Weapons</h4>
-            @foreach(var weapon in build.Weapons)
-            {
-                Weapon test = GetWeapon(weapon);
-                <WeaponsComponent weapon=@test/>
-            }
-            <h4>Artifacts</h4>
-            @foreach (var artifacts in build.ArtifactSets)
-            {
-                <ArtifactSetComponent ArtifactSet=@GetArtifactSet(artifacts)></ArtifactSetComponent>
-            }
-            <h4>Stats</h4>
-            @foreach (var stats in build.Stats)
-            {
-                <div>@stats</div>
-            }
+            <div class="columns">
+                <div>
+                    <h4>Weapons</h4>
+                    @foreach (var weapon in build.Weapons)
+                    {
+                        Weapon test = GetWeapon(weapon);
+                        <WeaponsComponent weapon=@test />
+                    }
+                </div>
+                <div>
+                    <h4>Artifacts</h4>
+                    @foreach (var artifacts in build.ArtifactSets)
+                    {
+                        <ArtifactSetComponent ArtifactSet=@GetArtifactSet(artifacts)></ArtifactSetComponent>
+                    }
+                </div>
+                <div>
+                    <h4>Stats</h4>
+                    @foreach (var stats in build.Stats)
+                    {
+                        <div>@stats</div>
+                    }
+                </div>
+            </div>
         }
     </div>
 }
@@ -43,22 +56,22 @@
             false,
             "",
             new List<Build>()
-                {
+                                                                {
                     new Build(
                         new List<string>
                         {
                             "",
                         },
-                        new List<string> 
-                        { 
+                        new List<string>
+                        {
                             "",
                         },
-                        new List<string> 
-                        { 
+                        new List<string>
+                        {
                             "",
                         }
                     )
-                });
+                                                                });
         List<Character> characters = characterService.Get();
         foreach (var character in characters)
         {
@@ -71,11 +84,11 @@
     }
     public Weapon GetWeapon(string name)
     {
-        Weapon needed = new Weapon( "", "", "", "", "");
+        Weapon needed = new Weapon("", "", "", "", "");
         List<Weapon> weapons = weaponService.Get();
         foreach (var weapon in weapons)
         {
-            if( weapon.Name == name)
+            if (weapon.Name == name)
             {
                 needed = weapon;
             }
