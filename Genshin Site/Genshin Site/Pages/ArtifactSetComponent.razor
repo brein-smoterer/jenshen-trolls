@@ -15,9 +15,9 @@
     @foreach (var artifact in ArtifactSet.Artifacts)
     {
         <div>
-            <span><img src="@artifact.Image" /></span>
-            <span>@artifact.Slot:</span>
-            <span>@artifact.Name</span>
+            <img src="@artifact.Image" />
+            @artifact.Slot:
+            @artifact.Name
         </div>
     }
 </div>
