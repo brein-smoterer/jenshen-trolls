@@ -1,11 +1,12 @@
 ﻿@page "/characters/{CharacterName}";
 @using Genshin_Site.Data;
-@inject CharactersService service;
-@inject WeaponService service2;
+@inject CharactersService characterService;
+@inject WeaponService weaponService;
+@inject ArtifactsService artifactService;
 
 
 @{
-    Character character = Get(CharacterName);
+    Character character = GetCharacter(CharacterName);
     <CharacterComponent Character=@character />
     <div>
         @foreach (var build in character.Builds)
@@ -20,7 +21,7 @@
             <h4>Artifacts</h4>
             @foreach (var artifacts in build.ArtifactSets)
             {
-                <div>@artifacts</div>
+                <ArtifactSetComponent ArtifactSet=@GetArtifactSet(artifacts)></ArtifactSetComponent>
             }
             <h4>Stats</h4>
             @foreach (var stats in build.Stats)
@@ -34,7 +35,7 @@
     [Parameter]
     public string CharacterName { get; set; }
 
-    public Character Get(string name)
+    public Character GetCharacter(string name)
     {
         Character needed = new Character(
             "",
@@ -59,16 +60,12 @@
                         }
                     )
                 });
-        List<Character> characters = service.Get();
+        List<Character> characters = characterService.Get();
         foreach (var character in characters)
         {
             if (character.CharacterName == name)
             {
                 needed = character;
-            }
-            else
-            {
-                continue;
             }
         }
         return needed;
@@ -76,18 +73,27 @@
     public Weapon GetWeapon(string name)
     {
         Weapon needed = new Weapon( "", "", "", "", "");
-        List<Weapon> weapons = service2.Get();
+        List<Weapon> weapons = weaponService.Get();
         foreach (var weapon in weapons)
         {
             if( weapon.Name == name)
             {
                 needed = weapon;
             }
-            else
-            {
-                continue;
-            }
         }
         return needed;
+    }
+    public ArtifactSet GetArtifactSet(string name)
+    {
+        ArtifactSet neededSet = new ArtifactSet("", "", new Artifacts[0], "", false);
+        List<ArtifactSet> artifactSets = artifactService.GetSets();
+        foreach (var artifactSet in artifactSets)
+        {
+            if (artifactSet.Name == name)
+            {
+                neededSet = artifactSet;
+            }
+        }
+        return neededSet;
     }
 }
