@@ -14,8 +14,7 @@
             @foreach(var weapon in build.Weapons)
             {
                 Weapon test = GetWeapon(weapon);
-                <img src="@test.Image" asp-append-version="true" maxwidth="180px" maxheight="180px" />
-                <div>@test.Name</div>
+                <WeaponsComponent weapon=@test/>
             }
             <h4>Artifacts</h4>
             @foreach (var artifacts in build.ArtifactSets)
@@ -82,10 +81,6 @@
             if( weapon.Name == name)
             {
                 needed = weapon;
-            }
-            else
-            {
-                continue;
             }
         }
         return needed;
