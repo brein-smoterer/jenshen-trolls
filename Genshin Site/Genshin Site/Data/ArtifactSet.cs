@@ -7,7 +7,11 @@
         public Artifacts[] Artifacts { get; set; }
         public string Img { get; set; }
         public bool Show { get; set; }
-        public ArtifactSet(string Name, string Passive, Artifacts[] Artifacts, string Img = null, bool Show = false)
+        public ArtifactSet(string Name,
+            string Passive,
+            Artifacts[] Artifacts,
+            string Img = null,
+            bool Show = false)
         {
             this.Name = Name;
             this.Passive = Passive;
