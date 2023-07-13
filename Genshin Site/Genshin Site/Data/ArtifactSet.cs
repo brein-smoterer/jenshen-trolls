@@ -7,7 +7,8 @@
         public Artifacts[] Artifacts { get; set; }
         public string Img { get; set; }
         public bool Show { get; set; }
-        public ArtifactSet(string Name,
+        public ArtifactSet(
+            string Name,
             string Passive,
             Artifacts[] Artifacts,
             string Img = null,

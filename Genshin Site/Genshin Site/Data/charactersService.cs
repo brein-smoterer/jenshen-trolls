@@ -41,7 +41,7 @@ namespace Genshin_Site.Data
                "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5896a5-4a79-496a-bea4-81f26cfa2650/deeqrp7-20be0170-c714-46ac-934c-e5681b89acd1.png/v1/fill/w_571,h_350/albedo_genshin_impact_portrait_render_by_deg5270_deeqrp7-350t.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg1IiwicGF0aCI6IlwvZlwvNWU1ODk2YTUtNGE3OS00OTZhLWJlYTQtODFmMjZjZmEyNjUwXC9kZWVxcnA3LTIwYmUwMTcwLWM3MTQtNDZhYy05MzRjLWU1NjgxYjg5YWNkMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.EYma2RW18CWLi8Pf5a7qZSNLykiPc7QqdoamYhN5r5o",
                  new List<Build>()
                  {
-                     new Build(new List<string> { "Cinnabar Spindle", " Primordial Jade Cutter", " Freedom-Sworn" }, new List<string> { "4pc Husk", "2pc Husk, 2pc Archaic", "4pc Tenacity", }, new List<string> { "Sands: DEF%", "Goblet: Geo DMG Bonus", "Circlet: CRIT Rate or CRIT DMG", } )
+                     new Build(new List<string> { "Cinnabar Spindle", " Primordial Jade Cutter", " Freedom-Sworn" }, new List<string> { "Husk of Opulent Dreams", "Archaic Petra", "Tenacity of the Millelith", }, new List<string> { "Sands: DEF%", "Goblet: Geo DMG Bonus", "Circlet: CRIT Rate or CRIT DMG", } )
                  }),
           new Character(
             "Alhaitham",
