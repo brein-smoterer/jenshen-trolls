@@ -1,18 +1,47 @@
 ﻿@page "/characters"
 @using Genshin_Site.Data;
+<style>
+.button {
+        height: 3rem;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
 
-<h3>Character</h3>
-@foreach (var character in roster)
-{
-    <img src="@character.Imege" asp-append-version="true" width="180px" />
-    <br>
-    <button @onclick = "() => Show(character)">@character.CharacterName:</button>
-    <div hidden="@(!character.Show)">
-        <div>@character.Element</div>
-        <div>@character.Weapon</div>
-    </div>
-    <br>
 }
+
+div.text{
+
+    text-align: center;
+    align-items: center;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button:hover {
+    background-color: blanchedalmond;
+}
+</style>
+<h3>Character</h3>
+<div class="sidebar">
+@foreach (var character in roster)
+    {
+        <hr>
+        <img src="@character.Imege" asp-append-version="true" width="180px" />
+        <br>
+        <div class="button" @onclick = "() => Show(character)">@character.CharacterName</div>
+        <div hidden="@(!character.Show)">
+            <div class="text">@character.Element</div>
+            <div class="text">@character.Weapon</div>
+        </div>
+        <br>
+    }
+</div>
 
 @code
 {

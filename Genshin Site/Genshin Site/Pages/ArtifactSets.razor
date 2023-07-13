@@ -2,13 +2,13 @@
 
 @using Genshin_Site.Data;
 <h3>Artifact Sets</h3>
+<hr>
 <style>
     .expand {
-        width: 300px;
+        width: auto;
         border-style: none;
-        background-color: antiquewhite;
         border-block-color: aqua;
-        margin: 3px
+        margin: 0px;
     }
 
         .expand:hover {
@@ -25,14 +25,9 @@
         <div hidden="@(!set.Show)">
             <div>@set.ArtifactSetPassive</div>
         </div>
+        <hr>
     }
 </div>
-@*@foreach (var file in files)
-{
-    <img src="Images/ArtifactImages/@file.Name" />
-
-}*@
-
 
 @code {
     private List<ArtifactSet> artifactSets = new List<ArtifactSet>()
