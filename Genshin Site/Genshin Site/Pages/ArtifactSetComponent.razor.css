@@ -22,4 +22,11 @@ img.SetIcon {
 }
 .wrap {
 	overflow-wrap: break-word;
+	padding:4px;
+}
+.box {
+	display: flex;
+	flex: auto;
+	align-items: center;
+	justify-content: center;
 }
