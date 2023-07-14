@@ -6,19 +6,19 @@
 
 
 <h3>Character</h3>
-<button @onclick="() => Expand(service.Get())">Expand all</button>
-<button @onclick="() => Collapse(service.Get())">Collapse all</button>
+@*<button @onclick="() => Expand(service.Get())">Expand all</button>
+<button @onclick="() => Collapse(service.Get())">Collapse all</button>*@
 <hr>
 <div class="wrap-icons">
-@foreach (var character in service.Get())
+    @foreach (var character in service.Get())
     @*@foreach (var character in roster)*@
-{
-    <div class="card-box">
+    {
+        <div class="card-box">
             <div @onclick="() => GoToDetails(character)">
-            <CharacterComponent Character=@character />
+                <CharacterComponent Character=@character />
             </div>
-    </div>
-}
+        </div>
+    }
 </div>
 
 @code
