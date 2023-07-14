@@ -1,6 +1,6 @@
 ﻿@using Genshin_Site.Data;
-<div>
-    <div class="expand" @onclick="() => Show(ArtifactSet)">
+<div class="button">
+    <div class="expand box" @onclick="() => Show(ArtifactSet)">
         @if (ArtifactSet.Img != null)
         { 
             <img class="SetIcon" src="@ArtifactSet.Img" />
@@ -9,18 +9,20 @@
         {
             <img src="https://static.wikia.nocookie.net/gensin-impact/images/2/27/Item_Initiate%27s_Flower.png" />
         }
-        <span>@ArtifactSet.Name</span>
+        <div class="wrap">@ArtifactSet.Name</div>
     </div>
-    <div hidden="@(!ArtifactSet.Show)">
+    <div class="content" hidden="@(!ArtifactSet.Show)">
         <div class="wrap">@ArtifactSet.Passive</div>
         @foreach (var artifact in ArtifactSet.Artifacts)
         {
-            
-            <div>
-                <hr>
+
+            <hr>
+            <div class="box">
                 <img src="@artifact.Image" />
+                <div class="wrap">
                 @artifact.Slot:
                 @artifact.Name
+                </div>
             </div>
         }
     </div>

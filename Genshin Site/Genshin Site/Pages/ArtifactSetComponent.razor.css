@@ -1,15 +1,26 @@
-﻿.expand {
+﻿.button {
 	width: auto;
 	border-style: solid;
 	border-color: lightgray;
 	margin: 6px 0px;
 	border-radius: 25px;
+	padding:0px;
+}
+.content {
+	padding: 4px;
+}
+.expand {
+	width: auto;
+	border-style: none;
+	border-color: lightgray;
+	border-radius: 25px;
 }
 
-.expand:hover {
-	background-color: blanchedalmond;
-	cursor: pointer;
-}
+	.expand:hover {
+		background-color: blanchedalmond;
+		cursor: pointer;
+		padding: 0px !important;
+	}
 
 img {
 	width: 75px;
@@ -22,4 +33,11 @@ img.SetIcon {
 }
 .wrap {
 	overflow-wrap: break-word;
+	padding:4px;
+}
+.box {
+	display: flex;
+	flex: auto;
+	align-items: center;
+	justify-content: flex-start;
 }
