@@ -6,7 +6,7 @@ namespace Genshin_Site.Data
     {
         //private string fileName = "Weaopns.json";
 
-        public IEnumerable<Weapon> GetWeapons(string selectedWeaponType)
+        public IEnumerable<Weapon> GetWeapons(string? selectedWeaponType)
         {
             if (selectedWeaponType != null && selectedWeaponType != "null")
                 return weapons.Where(x => x.Type == selectedWeaponType);

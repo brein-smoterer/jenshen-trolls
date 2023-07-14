@@ -24,10 +24,10 @@
                 <div class="build" hidden =@(!build.Shown)>
                     <div class="column">
                         <h4>Weapons</h4>
-                        @foreach (var weapon in build.Weapons)
+                        @foreach (var weaponName in build.Weapons)
                         {
-                            Weapon test = GetWeapon(weapon);
-                            <WeaponsComponent weapon=@test />
+                            Weapon weapon = GetWeapon(weaponName);
+                            <WeaponsComponent Weapon=@weapon />
                         }
                     </div>
                     <div class ="column">
