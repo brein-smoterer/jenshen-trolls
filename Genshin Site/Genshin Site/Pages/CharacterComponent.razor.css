@@ -1,0 +1,29 @@
+﻿.button {
+	background-image: url("https://images.unsplash.com/photo-1582573732277-c5444fa37391?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFpbmJvdyUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+	border-style: none;
+	border-radius: 25px;
+	text-align: center;
+	align-items: center;
+	margin:0 0
+}
+
+img {
+	display: flex;
+	margin-left: 0;
+	margin-right: 0;
+	width: 180px;
+	height: 120px;
+	object-fit: contain;
+}
+
+.button:hover {
+	background-color: blanchedalmond;
+}
+
+.hover-effect {
+	transition: transform 0.3s ease;
+}
+
+	.hover-effect:hover {
+		transform: scale(1.05);
+	}

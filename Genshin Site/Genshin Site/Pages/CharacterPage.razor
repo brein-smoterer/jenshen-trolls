@@ -1,39 +1,51 @@
 ﻿@page "/characters/{CharacterName}";
 @using Genshin_Site.Data;
+@inject NavigationManager NavManager
 @inject CharactersService characterService;
 @inject WeaponService weaponService;
 @inject ArtifactsService artifactService;
 
 @{
     Character character = GetCharacter(CharacterName);
-    <CharacterComponent Character=@character />
+    <div @onclick="() => ShowCharDetails(character)">
+        <CharacterComponent Character=@character />
+    </div>
+    <div hidden="@(!character.Show)">
+        <div>@character.Element</div>
+        <div @onclick="() => NavigateToWeapons(character)">@character.Weapon</div>
+    </div>
     <div>
-        @foreach (var build in character.Builds)
+    @if (character.Builds != null)
         {
-            <div class="columns">
-                <div>
-                    <h4>Weapons</h4>
-                    @foreach (var weapon in build.Weapons)
-                    {
-                        Weapon test = GetWeapon(weapon);
-                        <WeaponsComponent weapon=@test />
-                    }
+            @foreach (Build build in character.Builds)
+            {
+            <div @onclick="() => ShowBuild(build)">@build.Name</div>
+                <div hidden =@(!build.Shown)>
+                    <div>
+                        <h4>Weapons</h4>
+                        @foreach (var weapon in build.Weapons)
+                        {
+                            Weapon test = GetWeapon(weapon);
+                            <WeaponsComponent weapon=@test />
+                        }
+                    </div>
+                    <div>
+                        <h4>Artifacts</h4>
+                        @foreach (var artifacts in build.ArtifactSets)
+                        {
+                            <ArtifactSetComponent ArtifactSet=@GetArtifactSet(artifacts)></ArtifactSetComponent>
+                        }
+                    </div>
+                    <div>
+                        <h4>Stats</h4>
+                        @foreach (var stats in build.Stats)
+                        {
+                            <div>@stats</div>
+                        }
+                    </div>
                 </div>
-                <div>
-                    <h4>Artifacts</h4>
-                    @foreach (var artifacts in build.ArtifactSets)
-                    {
-                        <ArtifactSetComponent ArtifactSet=@GetArtifactSet(artifacts)></ArtifactSetComponent>
-                    }
-                </div>
-                <div>
-                    <h4>Stats</h4>
-                    @foreach (var stats in build.Stats)
-                    {
-                        <div>@stats</div>
-                    }
-                </div>
-            </div>
+
+            }
         }
     </div>
 }
@@ -50,8 +62,9 @@
             false,
             "",
             new List<Build>()
-                                                                {
+            {
                     new Build(
+                        "",
                         new List<string>
                         {
                             "",
@@ -65,7 +78,7 @@
                             "",
                         }
                     )
-                                                                });
+            });
         List<Character> characters = characterService.Get();
         foreach (var character in characters)
         {
@@ -102,4 +115,15 @@
         }
         return neededSet;
     }
+    public void ShowBuild(Build build)
+    {
+        build.Shown = !build.Shown;
+    }
+    public void ShowCharDetails(Character character)
+    {
+        character.Show = !character.Show;
+    }
+    public void NavigateToWeapons(Character character)
+    => NavManager.NavigateTo("/weapons/" + character.Weapon);
+
 }
