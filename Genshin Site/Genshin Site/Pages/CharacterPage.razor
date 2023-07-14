@@ -15,6 +15,7 @@
         <div @onclick="() => NavigateToWeapons(character)">@character.Weapon</div>
     </div>
     <div>
+    <hr>
     @if (character.Builds != null)
         {
             @foreach (Build build in character.Builds)
