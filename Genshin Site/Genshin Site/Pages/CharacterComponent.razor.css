@@ -4,7 +4,11 @@
 	border-radius: 25px;
 	text-align: center;
 	align-items: center;
-	margin:0 0
+	margin: 0 0;
+	width: 180px;
+	white-space: nowrap;
+	font-size: 1vw;
+
 }
 
 img {
@@ -17,7 +21,7 @@ img {
 }
 
 .button:hover {
-	background-color: blanchedalmond;
+	cursor: pointer;
 }
 
 .hover-effect {
