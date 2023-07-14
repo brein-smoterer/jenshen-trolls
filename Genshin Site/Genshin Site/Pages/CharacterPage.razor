@@ -21,13 +21,13 @@
             @foreach (Build build in character.Builds)
             {
             <div class="build-name"@onclick="() => ShowBuild(build)">@build.Name</div>
-                <div hidden =@(!build.Shown)>
+                <div hidden ="@(!build.Shown)">
                     <div>
                         <h4>Weapons</h4>
-                        @foreach (var weapon in build.Weapons)
+                        @foreach (var weaponName in build.Weapons)
                         {
-                            Weapon test = GetWeapon(weapon);
-                            <WeaponsComponent weapon=@test />
+                            Weapon weapon = GetWeapon(weaponName);
+                            <WeaponsComponent Weapon=@weapon />
                         }
                     </div>
                     <div>

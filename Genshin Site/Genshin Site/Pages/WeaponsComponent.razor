@@ -1,20 +1,26 @@
 ﻿@using Genshin_Site.Data;
 
 @inject NavigationManager NavigationManager;
-
-<img src="@weapon.Image" asp-append-version="true" maxwidth="180px" maxheight="180px" />
-<button @onclick="() => Show(weapon)">@weapon.Name</button>
-<div hidden="@(!weapon.Show)">
-    <div>@weapon.Type</div>
-    <div>@weapon.Substat</div>
-    <div>@weapon.Passive</div>
-</div>
-<br>
-
+@if (Weapon != null)
+{
+    <div class="shown button" @onclick="() => Show(Weapon)">
+        <img src="@Weapon.Image" asp-append-version="true" maxwidth="180px" maxheight="180px" />
+        <span>@Weapon.Name</span>
+    </div>
+    <div hidden="@(!Weapon.Show)">
+        <div>@Weapon.Type</div>
+        <div>@Weapon.Substat</div>
+        <div>@Weapon.Passive</div>
+    </div>
+    <hr>
+} else
+{
+    <h1>No weapon selected</h1>
+}
 @code 
 {
     [Parameter]
-    public Weapon weapon { get; set; }
+    public Weapon? Weapon { get; set; }
     Weapon? selectedWeapon;
     
     void Show(Weapon weapon)

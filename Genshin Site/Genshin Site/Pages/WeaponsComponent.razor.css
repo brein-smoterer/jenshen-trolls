@@ -1,7 +1,8 @@
-﻿/*.shown:hover {
+﻿.shown:hover {
     background-color: blanchedalmond;
     cursor: pointer;
 }
+
 .button {
     border-style: none;
     border-radius: 25px;
@@ -9,4 +10,3 @@
     margin: 0 0;
     padding: 0px;
 }
-*/

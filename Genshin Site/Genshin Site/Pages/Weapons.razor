@@ -19,17 +19,7 @@
 @*<WeaponsComponent @SelectedWeaponType=@SelectedWeaponType></WeaponComponent>*@
 @foreach (var weapon in service.GetWeapons(SelectedWeaponType))
 {
-    <div class="shown button" @onclick="() => Show(weapon)">
-    <img src="@weapon.Image" asp-append-version="true" maxwidth="180px" maxheight="180px" />
-        <span >@weapon.Name</span>
-    </div>
-    <div hidden="@(!weapon.Show)">
-        <div>@weapon.Type</div>
-        <div>@weapon.Substat</div>
-        <div>@weapon.Passive</div>
-    </div>
-    <hr>
-
+    <WeaponsComponent Weapon="weapon"></WeaponsComponent>
 }
 
 @*@if (selectedWeapon != null)
