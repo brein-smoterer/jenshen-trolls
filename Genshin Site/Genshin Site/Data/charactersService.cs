@@ -42,7 +42,7 @@ namespace Genshin_Site.Data
                  new List<Build>()
                  {
                      new Build("Sub-DPS/Geo Support", new List<string> { "Cinnabar Spindle", "Primordial Jade Cutter", "Freedom-Sworn" }, new List<string> { "Husk of Opulent Dreams", "Archaic Petra", "Tenacity of the Millelith", }, new List<string> { "Sands: DEF%", "Goblet: Geo DMG Bonus", "Circlet: CRIT Rate or CRIT DMG", } ),
-                     new Build("Tank Albedo", new List<string> { "Cinnabar Spindle", "Traveler's Handy Sword",}, new List<string> { "Tenacity of the Millelith", "Retracing Bolide", "Vourukasha's Glow"}, new List<string> { "Sands: DEF%", "Goblet: DEEF%", "Circlet:  Elemental Mastery", })
+                     new Build("Tank Albedo", new List<string> { "Cinnabar Spindle", "Traveler's Handy Sword",}, new List<string> { "Tenacity of the Millelith", "Retracing Bolide", "Vourukasha's Glow"}, new List<string> { "Sands: DEF%", "Goblet: DEF%", "Circlet:  Elemental Mastery", })
                  }),
           new Character(
             "Alhaitham",
