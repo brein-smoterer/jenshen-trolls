@@ -9,6 +9,8 @@
     align-items: center;
     margin: 0 0;
     padding: 0px;
+}
+
 .wrap {
 	overflow-wrap: break-word;
 }

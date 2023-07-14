@@ -15,13 +15,13 @@
         <div @onclick="() => NavigateToWeapons(character)">@character.Weapon</div>
     </div>
     <div>
-    <hr>
-    @if (character.Builds != null)
+        <hr>
+        @if (character.Builds != null)
         {
             @foreach (Build build in character.Builds)
             {
-            <div class="build-name"@onclick="() => ShowBuild(build)">@build.Name</div>
-                <div class="build" hidden =@(!build.Shown)>
+                <div class="build-name" @onclick="() => ShowBuild(build)">@build.Name</div>
+                <div class="build" hidden="@(!build.Shown)">
                     <div class="column">
                         <h4>Weapons</h4>
                         @foreach (var weaponName in build.Weapons)
@@ -30,7 +30,7 @@
                             <WeaponsComponent Weapon=@weapon />
                         }
                     </div>
-                    <div class ="column">
+                    <div class="column">
                         <h4>Artifacts</h4>
                         @foreach (var artifacts in build.ArtifactSets)
                         {
@@ -43,7 +43,7 @@
                         {
                             <div>@stats</div>
                         }
-                    </div >
+                    </div>
                 </div>
 
             }
@@ -63,7 +63,7 @@
             false,
             "",
             new List<Build>()
-            {
+                {
                     new Build(
                         "",
                         new List<string>
@@ -79,7 +79,7 @@
                             "",
                         }
                     )
-            });
+                });
         List<Character> characters = characterService.Get();
         foreach (var character in characters)
         {
