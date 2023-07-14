@@ -21,8 +21,8 @@
             @foreach (Build build in character.Builds)
             {
             <div class="build-name"@onclick="() => ShowBuild(build)">@build.Name</div>
-                <div hidden =@(!build.Shown)>
-                    <div>
+                <div class="build" hidden =@(!build.Shown)>
+                    <div class="column">
                         <h4>Weapons</h4>
                         @foreach (var weapon in build.Weapons)
                         {
@@ -30,20 +30,20 @@
                             <WeaponsComponent weapon=@test />
                         }
                     </div>
-                    <div>
+                    <div class ="column">
                         <h4>Artifacts</h4>
                         @foreach (var artifacts in build.ArtifactSets)
                         {
                             <ArtifactSetComponent ArtifactSet=@GetArtifactSet(artifacts)></ArtifactSetComponent>
                         }
                     </div>
-                    <div>
+                    <div class="column">
                         <h4>Stats</h4>
                         @foreach (var stats in build.Stats)
                         {
                             <div>@stats</div>
                         }
-                    </div>
+                    </div >
                 </div>
 
             }

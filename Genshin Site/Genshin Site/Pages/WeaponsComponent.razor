@@ -4,7 +4,7 @@
 
 <img src="@weapon.Image" asp-append-version="true" maxwidth="180px" maxheight="180px" />
 <button @onclick="() => Show(weapon)">@weapon.Name</button>
-<div hidden="@(!weapon.Show)">
+<div class="wrap" hidden="@(!weapon.Show)">
     <div>@weapon.Type</div>
     <div>@weapon.Substat</div>
     <div>@weapon.Passive</div>

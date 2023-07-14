@@ -5,3 +5,16 @@
 	background-color:blanchedalmond;
 	cursor:pointer;
 }
+.build {
+	display: flex;
+	flex: 1 1 auto; /*grow | shrink | basis */
+	height: 100%;
+}
+.column {
+	max-width: 33%;
+	min-width: 33%;
+	font-size: 1vw;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+}

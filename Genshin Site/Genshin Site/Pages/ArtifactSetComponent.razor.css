@@ -10,3 +10,6 @@
 .expand:hover {
 	background-color: blanchedalmond;
 }
+.wrap {
+	overflow-wrap: break-word;
+}
