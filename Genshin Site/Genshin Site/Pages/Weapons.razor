@@ -7,7 +7,7 @@
 <h3>Weapons</h3>
 
 <div>
-    <select selectedWeaponType @onchange="OnWeaponTypeChange" title="Filter">
+    <select @onchange="OnWeaponTypeChange" title="Filter">
         <option value="null" selected>(All)</option>
         @foreach (var type in service.GetWeaponTypes())
         {
