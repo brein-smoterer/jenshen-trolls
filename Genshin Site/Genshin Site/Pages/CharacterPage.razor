@@ -10,7 +10,7 @@
     <div>
         @foreach (var build in character.Builds)
         {
-            <button @onclick="() => Show(build)">@build.Name</button>
+            <div @onclick="() => Show(build)">@build.Name</div>
             <div hidden =@(!build.Shown)>
                 <div>
                     <h4>Weapons</h4>
