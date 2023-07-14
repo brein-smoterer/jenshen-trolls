@@ -1,0 +1,10 @@
+﻿.wrap-icons {
+	display: flex;
+	flex-wrap: wrap;
+	vertical-align: text-top;
+	/*align-items: center;*/
+}
+
+.card-box {
+	margin: 4px;
+}
