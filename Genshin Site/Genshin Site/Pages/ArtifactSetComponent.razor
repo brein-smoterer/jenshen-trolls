@@ -1,9 +1,10 @@
 ﻿@using Genshin_Site.Data;
 <div>
-    <div @onclick="() => Show(ArtifactSet)">
+    <hr>
+    <div class="expand" @onclick="() => Show(ArtifactSet)">
         @if (ArtifactSet.Img != null)
-        {
-            <img src="@ArtifactSet.Img" />
+        { 
+            <img class="SetIcon" src="@ArtifactSet.Img" />
         }
         else
         {
@@ -15,14 +16,15 @@
         <div>@ArtifactSet.Passive</div>
         @foreach (var artifact in ArtifactSet.Artifacts)
         {
+            
             <div>
-                <img style="display:block" src="@artifact.Image" />
+                <hr>
+                <img src="@artifact.Image" />
                 @artifact.Slot:
                 @artifact.Name
             </div>
         }
     </div>
-    <hr />
 </div>
 
 @code {
