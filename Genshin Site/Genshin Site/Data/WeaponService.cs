@@ -43,6 +43,12 @@ namespace Genshin_Site.Data
         private List<Weapon> weapons = new List<Weapon>()
     {
             new Weapon(
+                "Traveler's Handy Sword",
+                "Sword",
+                "DEF 29.3%",
+                "Each Elemental Orb or Particle collected restores 1~2 HP.",
+                "https:img.game8.co/3314334/3e7a9688b870daa36b195588b4b411b7.png/show"),
+            new Weapon(
                 "Thrilling Tales of Dragon Slayers",
                 "Catalyst",
                 "HP 35.2%",
