@@ -12,7 +12,7 @@
     </div>
     <div hidden="@(!character.Show)">
         <div>@character.Element</div>
-        <div @onclick="() => NavigateToWeapons(character)">@character.Weapon</div>
+        <div class="build-name" @onclick="() => NavigateToWeapons(character)">@character.Weapon</div>
     </div>
     <div>
         <hr>

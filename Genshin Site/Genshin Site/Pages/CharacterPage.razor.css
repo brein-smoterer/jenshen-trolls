@@ -1,5 +1,5 @@
 ﻿.build-name{
-	background-color: beige;
+	/*background-color: beige;*/
 }
 .build-name:hover{
 	background-color:blanchedalmond;
@@ -16,3 +16,5 @@
 	font-size: 1vw;
 	margin: 4px;
 }
+
+
