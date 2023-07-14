@@ -14,19 +14,20 @@
             <option value="@type">@type</option>
         }
     </select>
+    <hr>
 </div>
 @*<WeaponsComponent @SelectedWeaponType=@SelectedWeaponType></WeaponComponent>*@
 @foreach (var weapon in service.GetWeapons(SelectedWeaponType))
 {
-
+    <div class="shown button" @onclick="() => Show(weapon)">
     <img src="@weapon.Image" asp-append-version="true" maxwidth="180px" maxheight="180px" />
-    <button @onclick="() => Show(weapon)">@weapon.Name</button>
+        <span >@weapon.Name</span>
+    </div>
     <div hidden="@(!weapon.Show)">
         <div>@weapon.Type</div>
         <div>@weapon.Substat</div>
         <div>@weapon.Passive</div>
     </div>
-    <br>
     <hr>
 
 }

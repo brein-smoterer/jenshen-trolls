@@ -1,2 +1,11 @@
-﻿body {
+﻿.shown:hover {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+.button {
+    border-style: none;
+    border-radius: 25px;
+    align-items: center;
+    margin: 0 0;
+    padding: 0px;
 }
