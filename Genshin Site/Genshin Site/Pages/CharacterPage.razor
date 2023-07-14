@@ -20,7 +20,7 @@
         {
             @foreach (Build build in character.Builds)
             {
-            <div @onclick="() => ShowBuild(build)">@build.Name</div>
+            <div class="build-name"@onclick="() => ShowBuild(build)">@build.Name</div>
                 <div hidden =@(!build.Shown)>
                     <div>
                         <h4>Weapons</h4>

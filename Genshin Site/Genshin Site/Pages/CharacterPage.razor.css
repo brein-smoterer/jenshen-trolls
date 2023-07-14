@@ -1,0 +1,7 @@
+﻿.build-name{
+	background-color: beige;
+}
+.build-name:hover{
+	background-color:blanchedalmond;
+	cursor:pointer;
+}
