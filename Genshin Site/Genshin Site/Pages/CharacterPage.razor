@@ -10,7 +10,7 @@
     <div @onclick="() => ShowCharDetails(character)">
         <CharacterComponent Character=@character />
     </div>
-    <div hidden="@(!character.ShowCharDetails)">
+    <div hidden="@(!character.Show)">
         <div>@character.Element</div>
         <div @onclick="() => NavigateToWeapons(character)">@character.Weapon</div>
     </div>
