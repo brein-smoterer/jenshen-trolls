@@ -1,5 +1,5 @@
 ﻿@using Genshin_Site.Data;
-<div>
+<div class="button">
     <div class="expand box" @onclick="() => Show(ArtifactSet)">
         @if (ArtifactSet.Img != null)
         { 
@@ -11,15 +11,15 @@
         }
         <div class="wrap">@ArtifactSet.Name</div>
     </div>
-    <div hidden="@(!ArtifactSet.Show)">
+    <div class="content" hidden="@(!ArtifactSet.Show)">
         <div class="wrap">@ArtifactSet.Passive</div>
         @foreach (var artifact in ArtifactSet.Artifacts)
         {
-            
-            <div >
-                <hr>
+
+            <hr>
+            <div class="box">
                 <img src="@artifact.Image" />
-                <div>
+                <div class="wrap">
                 @artifact.Slot:
                 @artifact.Name
                 </div>
