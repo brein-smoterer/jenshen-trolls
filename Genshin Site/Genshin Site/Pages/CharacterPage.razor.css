@@ -11,7 +11,7 @@
 	height: 100%;
 }
 .column {
-	max-width: 33%;
+/*	max-width: 33%;*/
 	min-width: 33%;
 	font-size: 1vw;
 	margin: 4px;
