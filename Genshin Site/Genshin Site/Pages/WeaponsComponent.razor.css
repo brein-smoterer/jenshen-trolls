@@ -4,10 +4,11 @@
 }
 
 .button {
-    border-style: none;
+    border-style: solid;
+    border-color: lightgray;
     border-radius: 25px;
     align-items: center;
-    margin: 0 0;
+    margin: 6px 0px;
     padding: 0px;
 }
 

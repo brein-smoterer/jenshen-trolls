@@ -1,15 +1,14 @@
 ﻿.expand {
 	width: auto;
-	border-style: none;
-	border-block-color: aqua;
-	margin: 0px;	
+	border-style: solid;
+	border-color: lightgray;
+	margin: 6px 0px;
+	border-radius: 25px;
 }
 
 .expand:hover {
 	background-color: blanchedalmond;
 	cursor: pointer;
-	border-style: none;
-	border-radius: 50px;
 }
 
 img {
